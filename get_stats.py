@@ -7,15 +7,18 @@ def get_stats():
     t = np.dtype(
         [('file_name', np.str_, 100), ('instCount', np.int32), ('branchMisCount', np.int32), ('branches', np.int32)])
 
-    for i in range(0, 3):
+    for i in range(0, 4):
         files = []
         write_file = []
         file_dir = ''
 
         if i == 0:
-            write_file = 'decoupled_loop_cpt_stats.txt'
-            file_dir = './decoupled'
+            write_file = 'decoupled_update_cpt_stats.txt'
+            file_dir = './decoupled_update'
         elif i == 1:
+            write_file = 'decoupled_last_cpt_stats.txt'
+            file_dir = './decoupled_last'
+        elif i == 2:
             write_file = 'decoupled_cpt_stats.txt'
             file_dir = './decoupled_ori'
         else:
