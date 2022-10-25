@@ -13,12 +13,12 @@ def merge_cpts():
         if i == 0:
             write_file = 'decoupled_update_stats.txt'
             read_file = 'decoupled_update_cpt_stats.txt'
-        elif i == 1:
-            write_file = 'decoupled_last_stats.txt'
-            read_file = 'decoupled_last_cpt_stats.txt'
-        elif i == 2:
-            write_file = 'decoupled_stats.txt'
-            read_file = 'decoupled_cpt_stats.txt'
+        #elif i == 1:
+        #    write_file = 'decoupled_last_stats.txt'
+        #    read_file = 'decoupled_last_cpt_stats.txt'
+        #elif i == 2:
+        #    write_file = 'decoupled_stats.txt'
+        #    read_file = 'decoupled_cpt_stats.txt'
         else:
             write_file = 'coupled_stats.txt'
             read_file = 'coupled_cpt_stats.txt'

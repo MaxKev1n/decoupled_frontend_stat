@@ -158,7 +158,8 @@
                         "name": "loop_detector",
                         "path": "system.cpu.branchPred.loop_detector",
                         "eventq_index": 0,
-                        "maxLoopQueueSize": 128
+                        "maxLoopQueueSize": 128,
+                        "tableSize": 256
                     },
                     "maxHistLen": 970,
                     "numThreads": 1,
@@ -167,7 +168,8 @@
                         "cxx_class": "gem5::branch_prediction::StreamLoopPredictor",
                         "name": "stream_loop_predictor",
                         "path": "system.cpu.branchPred.stream_loop_predictor",
-                        "eventq_index": 0
+                        "eventq_index": 0,
+                        "tableSize": 128
                     },
                     "stream_tage": {
                         "type": "StreamTAGE",
@@ -217,25 +219,25 @@
                         "eventq_index": 0,
                         "histLengths": [
                             0,
-                            6,
-                            8,
                             12,
                             16,
-                            18,
-                            22,
-                            26,
+                            24,
+                            32,
                             36,
+                            44,
                             52,
-                            76,
-                            110,
-                            156,
-                            226,
-                            324,
-                            464
+                            72,
+                            104,
+                            152,
+                            220,
+                            312,
+                            452,
+                            648,
+                            928
                         ],
                         "maxHistLen": 970,
-                        "numPredictors": 15,
-                        "numTablesToAlloc": 1,
+                        "numPredictors": 16,
+                        "numTablesToAlloc": 2,
                         "tableSizes": [
                             4096,
                             4096,

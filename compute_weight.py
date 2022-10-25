@@ -1,6 +1,6 @@
 import json
 
-simpoints_file = 'simpoints06_cover0.5.json'
+simpoints_file = 'gobmk.json'
 
 names = []
 weights = []
@@ -20,7 +20,7 @@ with open(simpoints_file) as jf:
             weights.append(weight)
             coes.append(coe)
 
-w = open('simpoints06_weights.txt', 'w')
+w = open('gobmk.txt', 'w')
 w.write(str(len(names)) + '\n')
 for i in range(0, len(names)):
     w.write(names[i] + ' ')
