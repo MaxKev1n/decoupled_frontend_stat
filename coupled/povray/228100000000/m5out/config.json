@@ -22,6 +22,7 @@
         "gcpt_restorer_file": "",
         "init_param": 0,
         "m5ops_base": 0,
+        "map_to_raw_cpt": false,
         "mem_mode": "timing",
         "mem_ranges": [
             "2147483648:10737418240"
@@ -83,7 +84,8 @@
                 "possible_states": []
             },
             "ranges": [
-                "71776119061217280:18446744073709551615"
+                "1080033280:1080033292",
+                "939524096:939589631"
             ],
             "req_size": 16,
             "resp_size": 16,
@@ -126,39 +128,136 @@
                 "activity": 0,
                 "backComSize": 5,
                 "branchPred": {
-                    "type": "TournamentBP",
-                    "cxx_class": "gem5::branch_prediction::TournamentBP",
+                    "type": "TAGE",
+                    "cxx_class": "gem5::branch_prediction::TAGE",
                     "name": "branchPred",
                     "path": "system.cpu.branchPred",
                     "BTBEntries": 4096,
                     "BTBTagSize": 16,
                     "RASSize": 16,
-                    "choiceCtrBits": 2,
-                    "choicePredictorSize": 8192,
                     "eventq_index": 0,
-                    "globalCtrBits": 2,
-                    "globalPredictorSize": 8192,
                     "indirectBranchPred": {
-                        "type": "SimpleIndirectPredictor",
-                        "cxx_class": "gem5::branch_prediction::SimpleIndirectPredictor",
+                        "type": "ITTAGE",
+                        "cxx_class": "gem5::branch_prediction::ITTAGE",
                         "name": "indirectBranchPred",
                         "path": "system.cpu.branchPred.indirectBranchPred",
+                        "TTagBitSizes": [
+                            9,
+                            9,
+                            13,
+                            13,
+                            13,
+                            13,
+                            13,
+                            13,
+                            13,
+                            13,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15
+                        ],
+                        "TTagPcShifts": [
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2,
+                            2
+                        ],
                         "eventq_index": 0,
-                        "indirectGHRBits": 13,
-                        "indirectHashGHR": true,
-                        "indirectHashTargets": true,
+                        "histLengths": [
+                            4,
+                            10,
+                            16,
+                            27,
+                            44,
+                            60,
+                            96,
+                            109,
+                            219,
+                            449,
+                            487
+                        ],
                         "indirectPathLength": 3,
-                        "indirectSets": 256,
-                        "indirectTagSize": 16,
-                        "indirectWays": 2,
-                        "instShiftAmt": 2,
-                        "numThreads": 1
+                        "numPredictors": 11,
+                        "numThreads": 1,
+                        "simpleBTBSize": 512,
+                        "tableSizes": [
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256,
+                            256
+                        ]
                     },
                     "instShiftAmt": 2,
-                    "localCtrBits": 2,
-                    "localHistoryTableSize": 2048,
-                    "localPredictorSize": 2048,
-                    "numThreads": 1
+                    "isDumpMisspredPC": false,
+                    "numThreads": 1,
+                    "tage": {
+                        "type": "TAGEBase",
+                        "cxx_class": "gem5::branch_prediction::TAGEBase",
+                        "name": "tage",
+                        "path": "system.cpu.branchPred.tage",
+                        "eventq_index": 0,
+                        "histBufferSize": 2097152,
+                        "initialTCounterValue": 131072,
+                        "instShiftAmt": 2,
+                        "logRatioBiModalHystEntries": 2,
+                        "logTagTableSizes": [
+                            13,
+                            9,
+                            9,
+                            9,
+                            9,
+                            9,
+                            9,
+                            9
+                        ],
+                        "logUResetPeriod": 18,
+                        "maxHist": 130,
+                        "maxNumAlloc": 1,
+                        "minHist": 5,
+                        "nHistoryTables": 7,
+                        "noSkip": [],
+                        "numThreads": 1,
+                        "numUseAltOnNa": 1,
+                        "pathHistBits": 16,
+                        "speculativeHistUpdate": true,
+                        "tagTableCounterBits": 3,
+                        "tagTableTagWidths": [
+                            0,
+                            9,
+                            9,
+                            10,
+                            10,
+                            11,
+                            11,
+                            12
+                        ],
+                        "tagTableUBits": 2,
+                        "useAltOnNaBits": 4
+                    }
                 },
                 "cacheLoadPorts": 200,
                 "cacheStorePorts": 200,
@@ -1074,7 +1173,7 @@
                     "warmup_percentage": 0,
                     "write_allocator": null,
                     "write_buffers": 8,
-                    "writeback_clean": false,
+                    "writeback_clean": true,
                     "cpu_side": {
                         "role": "GEM5 RESPONDER",
                         "peer": "system.cpu.dcache_port",
@@ -1493,6 +1592,9 @@
             "mem_side_ports": {
                 "role": "GEM5 REQUESTOR",
                 "peer": [
+                    "system.uartlite.pio",
+                    "system.lint.pio",
+                    "system.mmcs.pio",
                     "system.iocache.cpu_side"
                 ],
                 "is_source": "True"
@@ -1597,7 +1699,7 @@
             "writeback_clean": false,
             "cpu_side": {
                 "role": "GEM5 RESPONDER",
-                "peer": "system.iobus.mem_side_ports[0]",
+                "peer": "system.iobus.mem_side_ports[3]",
                 "is_source": "False"
             },
             "mem_side": {
@@ -1626,7 +1728,7 @@
             "is_read_only": false,
             "max_miss_count": 0,
             "move_contractions": true,
-            "mshrs": 64,
+            "mshrs": 32,
             "power_model": [],
             "power_state": {
                 "type": "PowerState",
@@ -1641,7 +1743,7 @@
                 "leaders": [],
                 "possible_states": []
             },
-            "prefetch_on_access": false,
+            "prefetch_on_access": true,
             "prefetch_on_pf_hit": false,
             "prefetcher": null,
             "replace_expansions": true,
@@ -1652,7 +1754,7 @@
                 "path": "system.l2.replacement_policy",
                 "eventq_index": 0
             },
-            "response_latency": 4,
+            "response_latency": 20,
             "sequential_access": false,
             "size": 1048576,
             "system": "system",
@@ -1702,7 +1804,7 @@
             "warmup_percentage": 0,
             "write_allocator": null,
             "write_buffers": 8,
-            "writeback_clean": false,
+            "writeback_clean": true,
             "cpu_side": {
                 "role": "GEM5 RESPONDER",
                 "peer": "system.tol2bus.mem_side_ports[0]",
@@ -1745,7 +1847,7 @@
             "time": "Tue Jan  1 00:00:00 2019",
             "pio": {
                 "role": "GEM5 RESPONDER",
-                "peer": "system.membus.mem_side_ports[2]",
+                "peer": "system.iobus.mem_side_ports[1]",
                 "is_source": "False"
             }
         },
@@ -1906,7 +2008,7 @@
                 "write_low_thresh_perc": 50,
                 "port": {
                     "role": "GEM5 RESPONDER",
-                    "peer": "system.membus.mem_side_ports[4]",
+                    "peer": "system.membus.mem_side_ports[1]",
                     "is_source": "False"
                 }
             }
@@ -2011,9 +2113,6 @@
                 "role": "GEM5 REQUESTOR",
                 "peer": [
                     "system.bridge.cpu_side_port",
-                    "system.uartlite.pio",
-                    "system.lint.pio",
-                    "system.mmcs.pio",
                     "system.mem_ctrls.port"
                 ],
                 "is_source": "True"
@@ -2048,7 +2147,7 @@
             "system": "system",
             "pio": {
                 "role": "GEM5 RESPONDER",
-                "peer": "system.membus.mem_side_ports[3]",
+                "peer": "system.iobus.mem_side_ports[2]",
                 "is_source": "False"
             }
         },
@@ -2140,7 +2239,7 @@
             "system": "system",
             "pio": {
                 "role": "GEM5 RESPONDER",
-                "peer": "system.membus.mem_side_ports[1]",
+                "peer": "system.iobus.mem_side_ports[0]",
                 "is_source": "False"
             }
         },

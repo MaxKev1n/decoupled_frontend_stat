@@ -15,12 +15,12 @@ def get_stats():
         if i == 0:
             write_file = 'decoupled_update_cpt_stats.txt'
             file_dir = './decoupled_update'
-        elif i == 1:
-            write_file = 'decoupled_last_cpt_stats.txt'
-            file_dir = './decoupled_last'
-        elif i == 2:
-            write_file = 'decoupled_cpt_stats.txt'
-            file_dir = './decoupled_ori'
+        #elif i == 1:
+        #    write_file = 'decoupled_last_cpt_stats.txt'
+        #    file_dir = './decoupled_last'
+        #elif i == 2:
+        #    write_file = 'decoupled_cpt_stats.txt'
+        #    file_dir = './decoupled_ori'
         else:
             write_file = 'coupled_cpt_stats.txt'
             file_dir = './coupled'
