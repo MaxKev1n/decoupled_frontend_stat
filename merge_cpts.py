@@ -5,7 +5,7 @@ def merge_cpts():
     t = np.dtype([('file_name', np.str_, 100), ('mpki', np.float32), ('misRate', np.float32)])
     t2 = np.dtype([('file_name', np.str_, 100), ('weight', np.float32), ('coe', np.float32)])
 
-    for i in range(0, 4):
+    for i in range(0, 2):
         write_file = []
         read_file = []
         weight_file = 'simpoints06_weights.txt'

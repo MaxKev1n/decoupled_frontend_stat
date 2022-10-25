@@ -83,8 +83,6 @@ def merge_workloads():
                             break
                     break
 
-        print(benchmarks_num)
-
         w = open('benchmarks/' + write_file, 'w')
         w.write(str(len(benchmarks_num)) + '\n')
         for line in benchmarks_num:
@@ -92,5 +90,3 @@ def merge_workloads():
             w.write(str(line[0][2]) + ' ')
             w.write(str(line[0][3]) + '\n')
         w.close()
-
-merge_workloads()

@@ -7,7 +7,7 @@ def get_stats():
     t = np.dtype(
         [('file_name', np.str_, 100), ('instCount', np.int32), ('branchMisCount', np.int32), ('branches', np.int32)])
 
-    for i in range(0, 4):
+    for i in range(0, 2):
         files = []
         write_file = []
         file_dir = ''
@@ -45,7 +45,7 @@ def get_stats():
                     elif word[0] == 'system.cpu.commit.branchMispredicts':
                         branchMispredicts = (int(word[1]))
                         tempStat[0][2] += branchMispredicts
-                    elif word[0] == 'system.cpu.commit.branches':
+                    elif word[0] == 'system.cpu.branchPred.indirectMispredicted':
                         branches = (int(word[1]))
                         tempStat[0][3] += branches
 
@@ -57,11 +57,11 @@ def get_stats():
         for i in range(len(stats)):
             mpki = 0
             misRate = 0
-            if stats[i][0][3] != 0:
-                mpki = format(float(stats[i][0][2]) / float(stats[i][0][1]) * 1000, '.3f')
             if stats[i][0][1] != 0:
-                misRate = format(float(stats[i][0][2]) / float(stats[i][0][3]) * 100, '.3f')
+                mpki = format((float(stats[i][0][2]) - float(stats[i][0][3])) / float(stats[i][0][1]) * 1000, '.3f')
+                misRate = format(float(stats[i][0][3]) / float(stats[i][0][1]) * 1000, '.3f')
             path = stats[i][0][0].split('/')
+
             w.write(path[2] + '/' + path[3] + ' ')
             w.write(str(stats[i][0][1]) + ' ')
             w.write(str(stats[i][0][2]) + ' ')
