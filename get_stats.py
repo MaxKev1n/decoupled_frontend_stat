@@ -2,6 +2,9 @@ import numpy as np
 import os
 import fnmatch
 
+import openpyxl
+
+
 def get_stats():
     np.set_printoptions(formatter={'all': lambda x: str(x)}, threshold=100)
     t = np.dtype(
@@ -70,4 +73,74 @@ def get_stats():
             w.write(str(misRate) + '\n')
         w.close()
 
+def get_stallReason(name):
+    np.set_printoptions(formatter={'all': lambda x: str(x)}, threshold=100)
 
+    label = ['NoStall', 'IcacheStall', 'ITlbStall', 'DTlbStall', 'BpStall', 'IntStall', 'TrapStall', 'FragStall',
+             'SquashStall', 'FetchBufferInvalid', 'InstMisPred', 'InstSquashed', 'SerializeStall', 'LongExecute',
+             'InstNotReady',
+             'LoadL1Stall', 'LoadL2Stall', 'LoadL3Stall', 'StoreL1Stall', 'StoreL2Stall', 'StoreL3Stall',
+             'ResumeUnblock', 'CommitSquash',
+             'Other']
+
+    for i in range(0, 4):
+        files = []
+        write_file = []
+        file_dir = ''
+
+        file_dir = './' + name
+        stage = ''
+
+        if i == 0:
+            stage = 'fetch'
+        elif i == 1:
+            stage = 'decode'
+        elif i == 2:
+            stage = 'rename'
+        else:
+            stage = 'dispatch'
+
+        for root, dirs, theFiles in os.walk(file_dir):
+            for file in theFiles:
+                if fnmatch.fnmatch(os.path.join(root, file), '*/stats.txt'):
+                    files.append(os.path.join(root, file))
+
+        print(len(files))
+        stats = np.zeros((24, len(files)), dtype = np.int32)
+        fileIndex = []
+        count = 0
+        for file in files:
+            f = open(file)
+            fileIndex.append(file)
+
+            for line in f:
+                word = line.strip().split()
+                if word:
+                    for index in range(0, 24):
+                        if word[0] == 'system.cpu.iew.' + stage + 'StallReason::' + label[index]:
+                            stats[index][count] += int(word[1])
+
+            count += 1
+
+        wb = openpyxl.load_workbook('./stallReason/'+ name +'-stalls.xlsx')
+        sheet = wb[stage + 'Stall']
+
+        bench_name = ['']
+        for index in range(0, count):
+            tempFile = fileIndex[index].split('/')
+            bench_name.append(tempFile[2] + '_' + tempFile[3])
+        sheet.append(bench_name)
+
+        for m in range(0, 24):
+            sheet.append([str(label[m])] + stats[m].tolist())
+
+        wb.save('./stallReason/'+ name +'-stalls.xlsx')
+
+
+        #w = open('checkpoint/' + write_file, 'w')
+        #w.write(str(len(stats)) + '\n')
+        #w.close()
+
+get_stallReason('xs-dev')
+
+get_stallReason('stream')
