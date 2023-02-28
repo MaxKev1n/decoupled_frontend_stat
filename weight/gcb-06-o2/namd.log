@@ -1,0 +1,341 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #446 Fri Sep 10 16:29:31 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (15240704 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1981436K/2095104K available (699K kernel code, 74K rwdata, 102K rodata, 14948K init, 98K bss, 113668K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.010000] clocksource: Switched to clocksource riscv_clocksource
+[    0.160000] Unpacking initramfs...
+[    0.360000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    0.360000] random: get_random_bytes called from 0xffffffff80e9cc42 with crng_init=0
+[    0.410000] Freeing unused kernel memory: 14948K
+[    0.410000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN namd ========
++ md5sum /spec/namd_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+39ae457319c7a6a0467f49aa6f96ce34  /spec/namd_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:01 +0000
++ cd /spec
++ ./namd_base.riscv64-unknown-linux-gnu-gcc-10.2.0 --input namd.input --iterations 38 --output namd.out
+*** TEST RUN - 38 ITERATIONS ***
+writing to output file namd.out
+iteration 0: 1 0 0
+iteration 0: 1 1 0
+iteration 0: 1 1 1
+iteration 0: 0 0 0
+iteration 0: 0 1 0
+iteration 0: 0 1 1
+iteration 1: 1 0 0
+iteration 1: 1 1 0
+iteration 1: 1 1 1
+iteration 1: 0 0 0
+iteration 1: 0 1 0
+iteration 1: 0 1 1
+iteration 2: 1 0 0
+iteration 2: 1 1 0
+iteration 2: 1 1 1
+iteration 2: 0 0 0
+iteration 2: 0 1 0
+iteration 2: 0 1 1
+iteration 3: 1 0 0
+iteration 3: 1 1 0
+iteration 3: 1 1 1
+iteration 3: 0 0 0
+iteration 3: 0 1 0
+iteration 3: 0 1 1
+iteration 4: 1 0 0
+iteration 4: 1 1 0
+iteration 4: 1 1 1
+iteration 4: 0 0 0
+iteration 4: 0 1 0
+iteration 4: 0 1 1
+iteration 5: 1 0 0
+iteration 5: 1 1 0
+iteration 5: 1 1 1
+iteration 5: 0 0 0
+iteration 5: 0 1 0
+iteration 5: 0 1 1
+iteration 6: 1 0 0
+iteration 6: 1 1 0
+iteration 6: 1 1 1
+iteration 6: 0 0 0
+iteration 6: 0 1 0
+iteration 6: 0 1 1
+iteration 7: 1 0 0
+iteration 7: 1 1 0
+iteration 7: 1 1 1
+iteration 7: 0 0 0
+iteration 7: 0 1 0
+iteration 7: 0 1 1
+iteration 8: 1 0 0
+iteration 8: 1 1 0
+iteration 8: 1 1 1
+iteration 8: 0 0 0
+iteration 8: 0 1 0
+iteration 8: 0 1 1
+iteration 9: 1 0 0
+iteration 9: 1 1 0
+iteration 9: 1 1 1
+iteration 9: 0 0 0
+iteration 9: 0 1 0
+iteration 9: 0 1 1
+iteration 10: 1 0 0
+iteration 10: 1 1 0
+iteration 10: 1 1 1
+iteration 10: 0 0 0
+iteration 10: 0 1 0
+iteration 10: 0 1 1
+iteration 11: 1 0 0
+iteration 11: 1 1 0
+iteration 11: 1 1 1
+iteration 11: 0 0 0
+iteration 11: 0 1 0
+iteration 11: 0 1 1
+iteration 12: 1 0 0
+iteration 12: 1 1 0
+iteration 12: 1 1 1
+iteration 12: 0 0 0
+iteration 12: 0 1 0
+iteration 12: 0 1 1
+iteration 13: 1 0 0
+iteration 13: 1 1 0
+iteration 13: 1 1 1
+iteration 13: 0 0 0
+iteration 13: 0 1 0
+iteration 13: 0 1 1
+iteration 14: 1 0 0
+iteration 14: 1 1 0
+iteration 14: 1 1 1
+iteration 14: 0 0 0
+iteration 14: 0 1 0
+iteration 14: 0 1 1
+iteration 15: 1 0 0
+iteration 15: 1 1 0
+iteration 15: 1 1 1
+iteration 15: 0 0 0
+iteration 15: 0 1 0
+iteration 15: 0 1 1
+iteration 16: 1 0 0
+iteration 16: 1 1 0
+iteration 16: 1 1 1
+iteration 16: 0 0 0
+iteration 16: 0 1 0
+iteration 16: 0 1 1
+iteration 17: 1 0 0
+iteration 17: 1 1 0
+iteration 17: 1 1 1
+iteration 17: 0 0 0
+iteration 17: 0 1 0
+iteration 17: 0 1 1
+iteration 18: 1 0 0
+iteration 18: 1 1 0
+iteration 18: 1 1 1
+iteration 18: 0 0 0
+iteration 18: 0 1 0
+iteration 18: 0 1 1
+iteration 19: 1 0 0
+iteration 19: 1 1 0
+iteration 19: 1 1 1
+iteration 19: 0 0 0
+iteration 19: 0 1 0
+iteration 19: 0 1 1
+iteration 20: 1 0 0
+iteration 20: 1 1 0
+iteration 20: 1 1 1
+iteration 20: 0 0 0
+iteration 20: 0 1 0
+iteration 20: 0 1 1
+iteration 21: 1 0 0
+iteration 21: 1 1 0
+iteration 21: 1 1 1
+iteration 21: 0 0 0
+iteration 21: 0 1 0
+iteration 21: 0 1 1
+iteration 22: 1 0 0
+iteration 22: 1 1 0
+iteration 22: 1 1 1
+iteration 22: 0 0 0
+iteration 22: 0 1 0
+iteration 22: 0 1 1
+iteration 23: 1 0 0
+iteration 23: 1 1 0
+iteration 23: 1 1 1
+iteration 23: 0 0 0
+iteration 23: 0 1 0
+iteration 23: 0 1 1
+iteration 24: 1 0 0
+iteration 24: 1 1 0
+iteration 24: 1 1 1
+iteration 24: 0 0 0
+iteration 24: 0 1 0
+iteration 24: 0 1 1
+iteration 25: 1 0 0
+iteration 25: 1 1 0
+iteration 25: 1 1 1
+iteration 25: 0 0 0
+iteration 25: 0 1 0
+iteration 25: 0 1 1
+iteration 26: 1 0 0
+iteration 26: 1 1 0
+iteration 26: 1 1 1
+iteration 26: 0 0 0
+iteration 26: 0 1 0
+iteration 26: 0 1 1
+iteration 27: 1 0 0
+iteration 27: 1 1 0
+iteration 27: 1 1 1
+iteration 27: 0 0 0
+iteration 27: 0 1 0
+iteration 27: 0 1 1
+iteration 28: 1 0 0
+iteration 28: 1 1 0
+iteration 28: 1 1 1
+iteration 28: 0 0 0
+iteration 28: 0 1 0
+iteration 28: 0 1 1
+iteration 29: 1 0 0
+iteration 29: 1 1 0
+iteration 29: 1 1 1
+iteration 29: 0 0 0
+iteration 29: 0 1 0
+iteration 29: 0 1 1
+iteration 30: 1 0 0
+iteration 30: 1 1 0
+iteration 30: 1 1 1
+iteration 30: 0 0 0
+iteration 30: 0 1 0
+iteration 30: 0 1 1
+iteration 31: 1 0 0
+iteration 31: 1 1 0
+iteration 31: 1 1 1
+iteration 31: 0 0 0
+iteration 31: 0 1 0
+iteration 31: 0 1 1
+iteration 32: 1 0 0
+iteration 32: 1 1 0
+iteration 32: 1 1 1
+iteration 32: 0 0 0
+iteration 32: 0 1 0
+iteration 32: 0 1 1
+iteration 33: 1 0 0
+iteration 33: 1 1 0
+iteration 33: 1 1 1
+iteration 33: 0 0 0
+iteration 33: 0 1 0
+iteration 33: 0 1 1
+iteration 34: 1 0 0
+iteration 34: 1 1 0
+iteration 34: 1 1 1
+iteration 34: 0 0 0
+iteration 34: 0 1 0
+iteration 34: 0 1 1
+iteration 35: 1 0 0
+iteration 35: 1 1 0
+iteration 35: 1 1 1
+iteration 35: 0 0 0
+iteration 35: 0 1 0
+iteration 35: 0 1 1
+iteration 36: 1 0 0
+iteration 36: 1 1 0
+iteration 36: 1 1 1
+iteration 36: 0 0 0
+iteration 36: 0 1 0
+iteration 36: 0 1 1
+iteration 37: 1 0 0
+iteration 37: 1 1 0
+iteration 37: 1 1 1
+iteration 37: 0 0 0
+iteration 37: 0 1 0
+iteration 37: 0 1 1
+*** TEST RUN - 38 ITERATIONS ***
+SUCCESSFUL COMPLETION
++ date -R
+Thu, 01 Jan 1970 01:02:55 +0000
++ set +x
+======== END   namd ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/namd/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/namd/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 1719552062859[0m

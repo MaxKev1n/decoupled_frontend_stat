@@ -1,0 +1,276 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #445 Fri Sep 10 16:29:24 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (7601152 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1988892K/2095104K available (699K kernel code, 78K rwdata, 102K rodata, 7488K init, 98K bss, 106212K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.000000] clocksource: Switched to clocksource riscv_clocksource
+[    0.070000] Unpacking initramfs...
+[    0.180000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    0.180000] random: get_random_bytes called from 0xffffffff80753c42 with crng_init=0
+[    0.200000] Freeing unused kernel memory: 7488K
+[    0.200000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN milc ========
++ md5sum /spec/milc_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+d56914c284df10e8c97516dc573a705a  /spec/milc_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:01 +0000
++ cd /spec
++ ./milc_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+SU3 with improved KS action
+Microcanonical simulation with refreshing
+MIMD version 6
+Machine = Scalar processor, with 1 nodes
+R algorithm
+type 0 for no prompts  or 1 for prompts
+nflavors 2
+nx 20
+ny 20
+nz 20
+nt 20
+iseed 1234
+LAYOUT = Hypercubes, options = EVENFIRST,
+Made lattice
+Made nn gathers
+Made 3nn gathers
+Finished setup
+
+
+warms 0
+trajecs 1
+traj_between_meas 1
+beta 5.6
+mass 0.125
+u0 1
+microcanonical_time_step 0.2
+steps_per_trajectory 2
+max_cg_iterations 100
+error_per_site 0.125
+error_for_propagator 0.125
+fresh 
+forget 
+unit gauge configuration loaded
+CHECK PLAQ: 3.000000e+00 3.000000e+00
+Unitarity checked.  Max deviation 0.00e+00
+Symanzik 1x1 + 1x2 + 1x1x1 action
+loop coefficients: nloop rep loop_coeff  multiplicity
+                    0 0      1.000000e+00     6
+                    1 0      -5.000000e-02     12
+                    2 0      0.000000e+00     16
+"O(a^2): couplings(pi)=0, Naik term, No O(a^2) errors, tadpole weights"
+path coefficients: npath  path_coeff  multiplicity
+                    0      6.250000e-01     8
+                    1      -4.166667e-02     8
+                    2      -6.250000e-02     48
+                    3      1.562500e-02     192
+                    4      -2.604167e-03     384
+                    5      -6.250000e-02     48
+WARMUPS COMPLETED
+PLAQ:	2.101693	2.100619
+P_LOOP:	1.771832e-01	-6.393470e-04
+G_LOOP:  0  0  4   	2.102903e+00	( 0 1 7 6  )
+G_LOOP:  0  1  4   	2.100900e+00	( 0 2 7 5  )
+G_LOOP:  0  2  4   	2.101352e+00	( 0 3 7 4  )
+G_LOOP:  0  3  4   	2.101276e+00	( 1 2 6 5  )
+G_LOOP:  0  4  4   	2.100653e+00	( 1 3 6 4  )
+G_LOOP:  0  5  4   	2.099851e+00	( 2 3 5 4  )
+G_LOOP:  1  0  6   	1.592097e+00	( 0 0 1 7 7 6  )
+G_LOOP:  1  1  6   	1.588551e+00	( 0 0 2 7 7 5  )
+G_LOOP:  1  2  6   	1.589865e+00	( 0 0 3 7 7 4  )
+G_LOOP:  1  3  6   	1.593019e+00	( 1 1 0 6 6 7  )
+G_LOOP:  1  4  6   	1.588602e+00	( 1 1 2 6 6 5  )
+G_LOOP:  1  5  6   	1.587790e+00	( 1 1 3 6 6 4  )
+G_LOOP:  1  6  6   	1.587422e+00	( 2 2 0 5 5 7  )
+G_LOOP:  1  7  6   	1.589230e+00	( 2 2 1 5 5 6  )
+G_LOOP:  1  8  6   	1.587074e+00	( 2 2 3 5 5 4  )
+G_LOOP:  1  9  6   	1.587290e+00	( 3 3 0 4 4 7  )
+G_LOOP:  1  10  6   	1.588893e+00	( 3 3 1 4 4 6  )
+G_LOOP:  1  11  6   	1.588172e+00	( 3 3 2 4 4 5  )
+G_LOOP:  2  0  6   	1.622015e+00	( 0 1 2 7 6 5  )
+G_LOOP:  2  1  6   	1.621806e+00	( 0 1 5 7 6 2  )
+G_LOOP:  2  2  6   	1.622237e+00	( 0 6 2 7 1 5  )
+G_LOOP:  2  3  6   	1.621107e+00	( 0 6 5 7 1 2  )
+G_LOOP:  2  4  6   	1.621481e+00	( 0 1 3 7 6 4  )
+G_LOOP:  2  5  6   	1.622493e+00	( 0 1 4 7 6 3  )
+G_LOOP:  2  6  6   	1.622431e+00	( 0 6 3 7 1 4  )
+G_LOOP:  2  7  6   	1.621591e+00	( 0 6 4 7 1 3  )
+G_LOOP:  2  8  6   	1.620925e+00	( 0 2 3 7 5 4  )
+G_LOOP:  2  9  6   	1.621545e+00	( 0 2 4 7 5 3  )
+G_LOOP:  2  10  6   	1.618733e+00	( 0 5 3 7 2 4  )
+G_LOOP:  2  11  6   	1.619899e+00	( 0 5 4 7 2 3  )
+G_LOOP:  2  12  6   	1.622860e+00	( 1 2 3 6 5 4  )
+G_LOOP:  2  13  6   	1.620750e+00	( 1 2 4 6 5 3  )
+G_LOOP:  2  14  6   	1.622639e+00	( 1 5 3 6 2 4  )
+G_LOOP:  2  15  6   	1.621973e+00	( 1 5 4 6 2 3  )
+GACTION: 4.546465e+00
+PBP: mass 1.250000e-01     1.295402e-01  2.935885e-01 ( 1 of 1 )
+FACTION: mass = 1.250000e-01,  1.476869e+00 ( 1 of 1 )
+RUNNING COMPLETED
+average cg iters for step= 4.000000e+00
+total_iters = 13
+
+
+warms 0
+trajecs 1
+traj_between_meas 1
+beta 5.6
+mass 0.0125
+u0 1
+microcanonical_time_step 0.01
+steps_per_trajectory 2
+max_cg_iterations 300
+error_per_site 1e-05
+error_for_propagator 1e-05
+continue 
+forget 
+CHECK PLAQ: 2.101693e+00 2.100619e+00
+Unitarity checked.  Max deviation 4.44e-16
+Symanzik 1x1 + 1x2 + 1x1x1 action
+loop coefficients: nloop rep loop_coeff  multiplicity
+                    0 0      1.000000e+00     6
+                    1 0      -5.000000e-02     12
+                    2 0      0.000000e+00     16
+"O(a^2): couplings(pi)=0, Naik term, No O(a^2) errors, tadpole weights"
+path coefficients: npath  path_coeff  multiplicity
+                    0      6.250000e-01     8
+                    1      -4.166667e-02     8
+                    2      -6.250000e-02     48
+                    3      1.562500e-02     192
+                    4      -2.604167e-03     384
+                    5      -6.250000e-02     48
+WARMUPS COMPLETED
+PLAQ:	2.100287	2.099152
+P_LOOP:	1.746923e-01	-7.549596e-04
+G_LOOP:  0  0  4   	2.101415e+00	( 0 1 7 6  )
+G_LOOP:  0  1  4   	2.099526e+00	( 0 2 7 5  )
+G_LOOP:  0  2  4   	2.099913e+00	( 0 3 7 4  )
+G_LOOP:  0  3  4   	2.099921e+00	( 1 2 6 5  )
+G_LOOP:  0  4  4   	2.099104e+00	( 1 3 6 4  )
+G_LOOP:  0  5  4   	2.098438e+00	( 2 3 5 4  )
+G_LOOP:  1  0  6   	1.590472e+00	( 0 0 1 7 7 6  )
+G_LOOP:  1  1  6   	1.587024e+00	( 0 0 2 7 7 5  )
+G_LOOP:  1  2  6   	1.588085e+00	( 0 0 3 7 7 4  )
+G_LOOP:  1  3  6   	1.591415e+00	( 1 1 0 6 6 7  )
+G_LOOP:  1  4  6   	1.587162e+00	( 1 1 2 6 6 5  )
+G_LOOP:  1  5  6   	1.586169e+00	( 1 1 3 6 6 4  )
+G_LOOP:  1  6  6   	1.585728e+00	( 2 2 0 5 5 7  )
+G_LOOP:  1  7  6   	1.587577e+00	( 2 2 1 5 5 6  )
+G_LOOP:  1  8  6   	1.585290e+00	( 2 2 3 5 5 4  )
+G_LOOP:  1  9  6   	1.585799e+00	( 3 3 0 4 4 7  )
+G_LOOP:  1  10  6   	1.587330e+00	( 3 3 1 4 4 6  )
+G_LOOP:  1  11  6   	1.586701e+00	( 3 3 2 4 4 5  )
+G_LOOP:  2  0  6   	1.620662e+00	( 0 1 2 7 6 5  )
+G_LOOP:  2  1  6   	1.620168e+00	( 0 1 5 7 6 2  )
+G_LOOP:  2  2  6   	1.620520e+00	( 0 6 2 7 1 5  )
+G_LOOP:  2  3  6   	1.619319e+00	( 0 6 5 7 1 2  )
+G_LOOP:  2  4  6   	1.619979e+00	( 0 1 3 7 6 4  )
+G_LOOP:  2  5  6   	1.620995e+00	( 0 1 4 7 6 3  )
+G_LOOP:  2  6  6   	1.620596e+00	( 0 6 3 7 1 4  )
+G_LOOP:  2  7  6   	1.619897e+00	( 0 6 4 7 1 3  )
+G_LOOP:  2  8  6   	1.619302e+00	( 0 2 3 7 5 4  )
+G_LOOP:  2  9  6   	1.619546e+00	( 0 2 4 7 5 3  )
+G_LOOP:  2  10  6   	1.617112e+00	( 0 5 3 7 2 4  )
+G_LOOP:  2  11  6   	1.618168e+00	( 0 5 4 7 2 3  )
+G_LOOP:  2  12  6   	1.621082e+00	( 1 2 3 6 5 4  )
+G_LOOP:  2  13  6   	1.619223e+00	( 1 2 4 6 5 3  )
+G_LOOP:  2  14  6   	1.620875e+00	( 1 5 3 6 2 4  )
+G_LOOP:  2  15  6   	1.620179e+00	( 1 5 4 6 2 3  )
+GACTION: 4.554121e+00
+PBP: mass 1.250000e-02     1.224028e-02  1.771812e-02 ( 1 of 1 )
+FACTION: mass = 1.250000e-02,  1.497509e+00 ( 1 of 1 )
+RUNNING COMPLETED
+average cg iters for step= 6.200000e+01
+total_iters = 199
+
+
+get_i: EOF on STDIN while expecting warms.
++ date -R
+Thu, 01 Jan 1970 00:32:38 +0000
++ set +x
+======== END   milc ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/milc/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/milc/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 903297855577[0m

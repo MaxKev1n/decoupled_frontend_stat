@@ -13,12 +13,6 @@ def merge_cpts():
         if i == 0:
             write_file = 'decoupled_update_stats.txt'
             read_file = 'decoupled_update_cpt_stats.txt'
-        #elif i == 1:
-        #    write_file = 'decoupled_last_stats.txt'
-        #    read_file = 'decoupled_last_cpt_stats.txt'
-        #elif i == 2:
-        #    write_file = 'decoupled_stats.txt'
-        #    read_file = 'decoupled_cpt_stats.txt'
         else:
             write_file = 'coupled_stats.txt'
             read_file = 'coupled_cpt_stats.txt'
@@ -77,3 +71,88 @@ def merge_cpts():
             w.write(str(line[0][1]) + ' ')
             w.write(str(line[0][2]) + '\n')
         w.close()
+
+def merge_cpts2(name):
+    np.set_printoptions(formatter={'all': lambda x: str(x)}, threshold=100)
+
+    for i in range(0, 4):
+        stage = ''
+
+        if i == 0:
+            stage = 'fetch'
+        elif i == 1:
+            stage = 'decode'
+        elif i == 2:
+            stage = 'rename'
+        else:
+            stage = 'dispatch'
+
+        write_file = name + '-' + stage + '-workload.txt'
+        read_file = './stallReason/' + name + '-' + stage + '-cpt.txt'
+        weight_file = './weight/gcb-06-o2-summary.txt'
+
+        f1 = open(read_file)
+        f2 = open(weight_file)
+
+        length = int(f1.readline())
+        fileIndex = []
+        fileIndex2 = []
+        stats = np.zeros((length, 24))
+        weights = np.zeros((int(f2.readline()), 2))
+        workload_set = set()
+
+        count = 0
+        count2 = 0
+
+        for line in f2:
+            word = line.strip().split()
+            fileIndex2.append(word[0])
+            weights[count2] = [float(word[1]), float(word[2])]
+            count2 += 1
+
+        for line in f1:
+            word = line.strip().split()
+            for index in range(0, len(fileIndex2)):
+                if str(fileIndex2[index]) == str(word[0]):
+                    tempStat = []
+                    for m in range(0, 24):
+                        tempStat.append(float(word[m + 1]) * weights[index][0] * weights[index][1])
+                    fileIndex.append(word[0])
+                    stats[count] = tempStat
+                    break
+
+            count += 1
+            workload_set.add(word[0].split('/')[0])
+
+        count3 = 0
+        result = np.zeros((len(workload_set), 24))
+        fileIndex3 = []
+
+        for workload in workload_set:
+            tempStat = np.zeros((1, 24))
+            result[count3] = tempStat
+            fileIndex3.append(workload)
+            count3 += 1
+
+        for index in range(0, len(fileIndex)):
+            cpt = fileIndex[index].split('/')
+            for file_index in range(0, len(fileIndex3)):
+                if fileIndex3[file_index] == str(cpt[0]):
+                    for m in range(0, 24):
+                        result[file_index][m] += stats[index][m]
+                    break
+
+
+        w = open('./workload/' + write_file, 'w')
+        w.write(str(count3) + '\n')
+        for index in range(0, len(fileIndex3)):
+            cpt = fileIndex3[index]
+            w.write(cpt + ' ')
+            for m in range(0, 24):
+                w.write(str(int(result[index][m])) + ' ')
+            w.write('\n')
+        w.close()
+
+merge_cpts2('stream')
+
+merge_cpts2('xs-dev')

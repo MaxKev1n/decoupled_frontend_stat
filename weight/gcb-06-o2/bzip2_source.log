@@ -1,0 +1,131 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #418 Fri Sep 10 16:26:36 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (58611712 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1939084K/2095104K available (699K kernel code, 74K rwdata, 102K rodata, 57300K init, 98K bss, 156020K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.010000] clocksource: Switched to clocksource riscv_clocksource
+[    0.550000] Unpacking initramfs...
+[    1.260000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    1.270000] random: get_random_bytes called from 0xffffffff837f8c42 with crng_init=0
+[    1.440000] Freeing unused kernel memory: 57300K
+[    1.440000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN bzip2_source ========
++ md5sum /spec/bzip2_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+64eb8bdc9debbebb5f607413518670cd  /spec/bzip2_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:02 +0000
++ cd /spec
++ ./bzip2_base.riscv64-unknown-linux-gnu-gcc-10.2.0 input.source 280
+spec_init
+Loading Input Data
+Duplicating 51763200 bytes
+Duplicating 103526400 bytes
+Duplicating 86548480 bytes
+Input data 293601280 bytes in length
+Compressing Input Data, level 5
+Compressed data 54403299 bytes in length
+Uncompressing Data
+Uncompressed data 293601280 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 7
+Compressed data 53599136 bytes in length
+Uncompressing Data
+Uncompressed data 293601280 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 9
+Compressed data 52960821 bytes in length
+Uncompressing Data
+Uncompressed data 293601280 bytes in length
+Uncompressed data compared correctly
+Tested 280MB buffer: OK!
++ date -R
+Thu, 01 Jan 1970 02:02:00 +0000
++ set +x
+======== END   bzip2_source ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/bzip2_source/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/bzip2_source/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 458462200517[0m

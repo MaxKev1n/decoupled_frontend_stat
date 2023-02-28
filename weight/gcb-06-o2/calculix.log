@@ -1,0 +1,892 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #404 Fri Sep 10 16:25:01 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (9758720 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1986788K/2095104K available (699K kernel code, 78K rwdata, 102K rodata, 9592K init, 98K bss, 108316K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.000000] clocksource: Switched to clocksource riscv_clocksource
+[    0.080000] Unpacking initramfs...
+[    0.180000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    0.190000] random: get_random_bytes called from 0xffffffff80961c42 with crng_init=0
+[    0.200000] Freeing unused kernel memory: 9592K
+[    0.200000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN calculix ========
++ md5sum /spec/calculix_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+5659863a0374d5de4eb023c036f4f640  /spec/calculix_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:01 +0000
++ cd /spec
++ ./calculix_base.riscv64-unknown-linux-gnu-gcc-10.2.0 -i hyperviscoplastic
+
+************************************************************
+
+CalculiX DEVELOPMENT VERSION, Copyright(C) 1998 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+ nload =            0
+ nforc =            0
+ nboun =            2
+ nk =         4716
+ ne =          924
+ ne1d =            0
+ ne2d =            0
+ nmpc =         2892
+ nset =            6
+ nalset =        10366
+ nmat =            4
+ ncmat =            9
+ ntmat =            2
+ npmat =            2
+ norien =            1
+ nam =            2
+ namtot =            8
+ noprint =         9430
+ neprint =         1848
+ mint =           27
+ ntrans =            1
+ ncs =            0
+ memmpc =         5783
+ *WARNING in hyperelastics: default value was
+          used for compressibility coefficients
+   D1 =  0.2564E-01
+ *WARNING in hyperelastics: default value was
+          used for compressibility coefficients
+   D2 =  0.6576E-03
+ *WARNING in hyperelastics: default value was
+          used for compressibility coefficients
+   D3 =  0.1686E-04
+
+ STEP            1
+
+ Static analysis was selected
+
+ Nonlinear geometric effects and nonlinear 
+ material laws are taken into account
+
+Decascading the MPC's
+
+Renumbering the nodes to decrease the profile:
+ old profile =            0 *2147483647+     3408923
+ new profile =            0 *2147483647+     1102871
+
+Determining the structure of the matrix:
+number of equations
+13180
+number of nonzero matrix elements
+1026787
+total length of the skyline
+0*2147483647+8894646
+percentage of nonzero skyline elements
+11.526797
+
+increment 1 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=0.000000e+00
+
+ilin=0
+iteration 1
+
+largest residual force= 203.899659
+no convergence
+
+iteration 2
+
+largest residual force= 33.067904
+no convergence
+
+iteration 3
+
+largest residual force= 2.328631
+no convergence
+
+iteration 4
+
+largest residual force= 0.016787
+convergence
+
+dtheta exceeds the remainder of the step and is decreased to 0.000000
+
+ Printing nodal quantities
+
+ Printing element quantities
+
+
+ STEP            2
+
+ Static analysis was selected
+
+ Nonlinear geometric effects and nonlinear 
+ material laws are taken into account
+
+Decascading the MPC's
+
+Renumbering the nodes to decrease the profile:
+ old profile =            0 *2147483647+     3408923
+ new profile =            0 *2147483647+     1102871
+
+Determining the structure of the matrix:
+number of equations
+13180
+number of nonzero matrix elements
+1026787
+total length of the skyline
+0*2147483647+8894646
+percentage of nonzero skyline elements
+11.526797
+
+increment 1 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=0.000000e+00
+
+ilin=0
+iteration 1
+
+largest residual force= 25.201401
+no convergence
+
+iteration 2
+
+largest residual force= 4.077279
+no convergence
+
+iteration 3
+
+largest residual force= 0.013006
+convergence
+
+increment 2 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=5.000000e-02
+
+ilin=0
+iteration 1
+
+largest residual force= 19.173412
+no convergence
+
+iteration 2
+
+largest residual force= 4.185878
+no convergence
+
+iteration 3
+
+largest residual force= 0.009771
+convergence
+
+increment 3 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=1.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 15.229976
+no convergence
+
+iteration 2
+
+largest residual force= 4.190818
+no convergence
+
+iteration 3
+
+largest residual force= 0.006005
+convergence
+
+increment 4 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=1.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 28.749760
+no convergence
+
+iteration 2
+
+largest residual force= 4.183378
+no convergence
+
+iteration 3
+
+largest residual force= 0.002038
+convergence
+
+increment 5 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=2.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 79.110838
+no convergence
+
+iteration 2
+
+largest residual force= 61.582481
+no convergence
+
+iteration 3
+
+largest residual force= 0.058171
+no convergence
+
+iteration 4
+
+largest residual force= 0.000144
+convergence
+
+increment 6 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=2.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 145.328885
+no convergence
+
+iteration 2
+
+largest residual force= 16.296172
+no convergence
+
+iteration 3
+
+largest residual force= 0.553581
+no convergence
+
+iteration 4
+
+largest residual force= 0.000889
+convergence
+
+increment 7 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=3.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 215.949487
+no convergence
+
+iteration 2
+
+largest residual force= 25.704286
+no convergence
+
+iteration 3
+
+largest residual force= 1.873589
+no convergence
+
+iteration 4
+
+largest residual force= 0.017595
+convergence
+
+increment 8 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=3.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 249.264749
+no convergence
+
+iteration 2
+
+largest residual force= 30.383140
+no convergence
+
+iteration 3
+
+largest residual force= 2.638054
+no convergence
+
+iteration 4
+
+largest residual force= 0.027958
+convergence
+
+increment 9 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=4.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 280.711656
+no convergence
+
+iteration 2
+
+largest residual force= 54.496419
+no convergence
+
+iteration 3
+
+largest residual force= 4.689713
+no convergence
+
+iteration 4
+
+largest residual force= 0.047239
+convergence
+
+increment 10 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=4.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 310.704581
+no convergence
+
+iteration 2
+
+largest residual force= 64.998875
+no convergence
+
+iteration 3
+
+largest residual force= 6.372445
+no convergence
+
+iteration 4
+
+largest residual force= 0.075264
+convergence
+
+increment 11 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=5.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 341.968805
+no convergence
+
+iteration 2
+
+largest residual force= 74.985058
+no convergence
+
+iteration 3
+
+largest residual force= 7.388879
+no convergence
+
+iteration 4
+
+largest residual force= 0.145300
+no convergence
+
+iteration 5
+
+largest residual force= 0.003856
+convergence
+
+increment 12 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=5.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 370.600873
+no convergence
+
+iteration 2
+
+largest residual force= 93.538587
+no convergence
+
+iteration 3
+
+largest residual force= 8.159580
+no convergence
+
+iteration 4
+
+largest residual force= 0.193586
+no convergence
+
+iteration 5
+
+largest residual force= 0.006170
+convergence
+
+increment 13 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=6.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 395.908869
+no convergence
+
+iteration 2
+
+largest residual force= 194.088946
+no convergence
+
+iteration 3
+
+largest residual force= 9.126841
+no convergence
+
+iteration 4
+
+largest residual force= 0.314246
+no convergence
+
+iteration 5
+
+largest residual force= 0.010963
+convergence
+
+increment 14 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=6.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 1313.302667
+no convergence
+
+iteration 2
+
+largest residual force= 745.937905
+no convergence
+
+iteration 3
+
+largest residual force= 57.410665
+no convergence
+
+iteration 4
+
+largest residual force= 1.956361
+no convergence
+
+iteration 5
+
+largest residual force= 0.058239
+convergence
+
+increment 15 attempt 1 
+increment size= 5.000000e-02
+sum of previous increments=7.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 610674.630483
+no convergence
+
+iteration 2
+
+largest residual force= 96911.152838
+no convergence
+
+iteration 3
+
+largest residual force= 33009.854072
+no convergence
+
+iteration 4
+
+largest residual force= 27190.545445
+no convergence
+
+iteration 5
+
+largest residual force= 9194.222760
+no convergence
+
+iteration 6
+
+largest residual force= 22422.398527
+no convergence
+
+iteration 7
+
+largest residual force= 2003.579011
+no convergence
+
+iteration 8
+
+largest residual force= 19111.080550
+estimated number of iterations till convergence = 3
+no convergence
+
+iteration 9
+
+largest residual force= 422.970223
+estimated number of iterations till convergence = 11
+no convergence
+
+iteration 10
+
+largest residual force= 4339.568907
+estimated number of iterations till convergence = 6
+no convergence
+
+iteration 11
+
+largest residual force= 23.081130
+estimated number of iterations till convergence = 12
+no convergence
+
+iteration 12
+
+largest residual force= 14.574098
+estimated number of iterations till convergence = 22
+no convergence
+
+iteration 13
+
+largest residual force= 0.003727
+convergence; dtheta is decreased to 0.037500
+
+increment 16 attempt 1 
+increment size= 3.750000e-02
+sum of previous increments=7.500000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 361.323567
+no convergence
+
+iteration 2
+
+largest residual force= 76.108247
+no convergence
+
+iteration 3
+
+largest residual force= 9.205635
+no convergence
+
+iteration 4
+
+largest residual force= 1.353363
+no convergence
+
+iteration 5
+
+largest residual force= 0.130965
+convergence
+
+increment 17 attempt 1 
+increment size= 3.750000e-02
+sum of previous increments=7.875000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 376.710395
+no convergence
+
+iteration 2
+
+largest residual force= 80.255522
+no convergence
+
+iteration 3
+
+largest residual force= 9.834954
+no convergence
+
+iteration 4
+
+largest residual force= 1.563828
+no convergence
+
+iteration 5
+
+largest residual force= 0.152765
+convergence
+
+increment 18 attempt 1 
+increment size= 3.750000e-02
+sum of previous increments=8.250000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 391.374499
+no convergence
+
+iteration 2
+
+largest residual force= 84.035018
+no convergence
+
+iteration 3
+
+largest residual force= 10.450603
+no convergence
+
+iteration 4
+
+largest residual force= 1.777902
+no convergence
+
+iteration 5
+
+largest residual force= 0.174780
+convergence
+
+increment 19 attempt 1 
+increment size= 3.750000e-02
+sum of previous increments=8.625000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 404.812533
+no convergence
+
+iteration 2
+
+largest residual force= 87.585163
+no convergence
+
+iteration 3
+
+largest residual force= 11.303355
+no convergence
+
+iteration 4
+
+largest residual force= 2.020938
+no convergence
+
+iteration 5
+
+largest residual force= 0.227935
+convergence
+
+increment 20 attempt 1 
+increment size= 3.750000e-02
+sum of previous increments=9.000000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 416.706116
+no convergence
+
+iteration 2
+
+largest residual force= 90.921072
+no convergence
+
+iteration 3
+
+largest residual force= 13.084183
+no convergence
+
+iteration 4
+
+largest residual force= 2.517287
+no convergence
+
+iteration 5
+
+largest residual force= 0.340859
+no convergence
+
+iteration 6
+
+largest residual force= 0.051699
+convergence
+
+ Printing nodal quantities
+
+ Printing element quantities
+
+increment 21 attempt 1 
+increment size= 3.750000e-02
+sum of previous increments=9.375000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 426.600553
+no convergence
+
+iteration 2
+
+largest residual force= 165.604167
+no convergence
+
+iteration 3
+
+largest residual force= 15.322486
+no convergence
+
+iteration 4
+
+largest residual force= 3.127434
+no convergence
+
+iteration 5
+
+largest residual force= 0.466163
+no convergence
+
+iteration 6
+
+largest residual force= 0.130450
+convergence
+
+dtheta exceeds the remainder of the step and is decreased to 0.025000
+
+increment 22 attempt 1 
+increment size= 2.500000e-02
+sum of previous increments=9.750000e-01
+
+ilin=0
+iteration 1
+
+largest residual force= 293.489690
+no convergence
+
+iteration 2
+
+largest residual force= 68.907102
+no convergence
+
+iteration 3
+
+largest residual force= 10.326597
+no convergence
+
+iteration 4
+
+largest residual force= 2.101020
+no convergence
+
+iteration 5
+
+largest residual force= 0.574769
+no convergence
+
+iteration 6
+
+largest residual force= 0.182821
+convergence
+
+dtheta exceeds the remainder of the step and is decreased to 0.000000
+
+ Printing nodal quantities
+
+ Printing element quantities
+
++ date -R
+Thu, 01 Jan 1970 01:32:25 +0000
++ set +x
+======== END   calculix ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/calculix/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/calculix/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 5912241085295[0m

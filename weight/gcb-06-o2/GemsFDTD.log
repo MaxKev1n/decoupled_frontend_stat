@@ -1,0 +1,180 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #431 Fri Sep 10 16:27:56 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (8395264 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1988124K/2095104K available (699K kernel code, 74K rwdata, 102K rodata, 8260K init, 98K bss, 106980K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.010000] clocksource: Switched to clocksource riscv_clocksource
+[    0.100000] Unpacking initramfs...
+[    0.220000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    0.220000] random: get_random_bytes called from 0xffffffff80814c42 with crng_init=0
+[    0.240000] Freeing unused kernel memory: 8260K
+[    0.240000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN GemsFDTD ========
++ md5sum /spec/GemsFDTD_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+655e34711d8fc3483586f90e85db99c8  /spec/GemsFDTD_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:01 +0000
++ cd /spec
++ ./GemsFDTD_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+ Welcome to GemsFDTD
+
+ *******PROBLEMSIZE*************************
+ problemsize:         210         210         210
+ *******CELLSIZE****************************
+ dx:   1.0000000000000000E-002
+ dy:   1.0000000000000000E-002
+ dz:   1.0000000000000000E-002
+ *******NSTEP*******************************
+ nstep:        1000
+ *******PLANEWAVE*************************
+ wavedir:   0.0000000000000000        0.0000000000000000        1.0000000000000000     
+ Epol:   1.0000000000000000        0.0000000000000000       -0.0000000000000000     
+ PulseType:           6
+ param:   1.2000000000000000E-009   2.0000000000000001E-010  -1111.0999999999999     
+ X0:   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ Disttobound:          10
+ ***************PEC*************************
+ Number of components:        28686
+ *******OUTERBOUNDARY***********************
+ #cells:          12
+ R0:    1.0000000000000000E-004
+ proftype:           4
+ *******CFL*********************************
+ CFL:  0.94999999999999996     
+ *******NFTRANS_TD**************************
+ Disttobound:          15
+ Theta_angles_no:           4
+ Theta_interval:   180.00000000000000        360.00000000000000     
+ Phi_angles_no:           1
+ Phi_interval:   0.0000000000000000        0.0000000000000000     
+ Filenamebase: sphere_td
+ *******PROGRESS****************************
+ progress,iteration:   100.00000000000000     
+
+
+ dt*c0 =    5.4848275573014449E-003
+ Number of timesteps to propagate one (x)-cell:  1.82
+ Ret. time arrays allocated in Huygens_mod, bytes used =      7041024
+ Searching for patches in PECinit:
+        7172 X-patches found
+        7172 Y-patches found
+        7172 Z-patches found
+ Fields allocated in UPML_mod, bytes used =    181570800
+
+ pml_cells =           12
+ Using polynomial profile for sigma, with degree           4
+ Arrays allocated in NFT_mod, bytes used =     57126016
+ Size of leading dimension for H-fields = 234
+ Size of leading dimension for E-fields = 235
+ Fields allocated in leapfrog_mod, bytes used =    618978696
+ (   171260352  bytes of this is due to UPML)
+
+ Total amount of Mbytes allocated =   824
+
+ ============================================================
+ Entering timestepping loop
+ Total number of iterations are         1000
+ Starting timer in the beginning of the second time step
+ Iteration no.          100  has been completed
+ Iteration no.          200  has been completed
+ Iteration no.          300  has been completed
+ Iteration no.          400  has been completed
+ Iteration no.          500  has been completed
+ Iteration no.          600  has been completed
+ Iteration no.          700  has been completed
+ Iteration no.          800  has been completed
+ Iteration no.          900  has been completed
+ Iteration no.         1000  has been completed
+ Ending timestepping loop
+ No. of Allocations (         150 )/(         150 ) deallocations.  Ok 
++ date -R
+Thu, 01 Jan 1970 00:37:58 +0000
++ set +x
+======== END   GemsFDTD ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/GemsFDTD/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/GemsFDTD/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 1611299984308[0m

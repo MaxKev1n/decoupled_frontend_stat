@@ -122,24 +122,32 @@ def get_stallReason(name):
 
             count += 1
 
-        wb = openpyxl.load_workbook('./stallReason/'+ name +'-stalls.xlsx')
-        sheet = wb[stage + 'Stall']
+        #wb = openpyxl.load_workbook('./stallReason/'+ name +'-stalls.xlsx')
+        #sheet = wb[stage + 'Stall']
 
-        bench_name = ['']
+        #bench_name = ['']
+        #for index in range(0, count):
+        #    tempFile = fileIndex[index].split('/')
+        #    bench_name.append(tempFile[2] + '_' + tempFile[3])
+        #sheet.append(bench_name)
+
+        #for m in range(0, 24):
+        #    sheet.append([str(label[m])] + stats[m].tolist())
+
+        #wb.save('./stallReason/'+ name +'-stalls.xlsx')
+
+
+        w = open('stallReason/' + name + '-' + stage + '-cpt.txt', 'w')
+        w.write(str(len(files)) + '\n')
+
         for index in range(0, count):
-            tempFile = fileIndex[index].split('/')
-            bench_name.append(tempFile[2] + '_' + tempFile[3])
-        sheet.append(bench_name)
+            path = fileIndex[index].split('/')
+            w.write(path[2] + '/' + path[3] + ' ')
+            for m in range(0, 24):
+                w.write(str(stats[m][index]) + ' ')
+            w.write('\n')
 
-        for m in range(0, 24):
-            sheet.append([str(label[m])] + stats[m].tolist())
-
-        wb.save('./stallReason/'+ name +'-stalls.xlsx')
-
-
-        #w = open('checkpoint/' + write_file, 'w')
-        #w.write(str(len(stats)) + '\n')
-        #w.close()
+        w.close()
 
 get_stallReason('xs-dev')
 

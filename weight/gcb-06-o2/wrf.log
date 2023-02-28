@@ -1,0 +1,525 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #455 Fri Sep 10 16:30:58 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (33459200 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1963644K/2095104K available (699K kernel code, 74K rwdata, 102K rodata, 32740K init, 98K bss, 131460K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.010000] clocksource: Switched to clocksource riscv_clocksource
+[    0.540000] Unpacking initramfs...
+[    1.160000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    1.160000] random: get_random_bytes called from 0xffffffff81ffcc42 with crng_init=0
+[    1.260000] Freeing unused kernel memory: 32740K
+[    1.260000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN wrf ========
++ md5sum /spec/wrf_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+ce2224b1d40ce213a51faa65102af856  /spec/wrf_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:03 +0000
++ cd /spec
++ ./wrf_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+ INITIALIZE THREE Noah LSM RELATED TABLES
+ INPUT LANDUSE = USGS
+ LANDUSE TYPE = USGS FOUND          27  CATEGORIES
+ INPUT SOIL TEXTURE CLASSIFICAION = STAS
+ SOIL TEXTURE CLASSIFICATION = STAS FOUND          19  CATEGORIES
+ INITIALIZE THREE Noah LSM RELATED TABLES
+ INPUT LANDUSE = USGS
+ LANDUSE TYPE = USGS FOUND          27  CATEGORIES
+ INPUT SOIL TEXTURE CLASSIFICAION = STAS
+ SOIL TEXTURE CLASSIFICATION = STAS FOUND          19  CATEGORIES
+ INITIALIZE THREE Noah LSM RELATED TABLES
+ INPUT LANDUSE = USGS
+ LANDUSE TYPE = USGS FOUND          27  CATEGORIES
+ INPUT SOIL TEXTURE CLASSIFICAION = STAS
+ SOIL TEXTURE CLASSIFICATION = STAS FOUND          19  CATEGORIES
+ INITIALIZE THREE Noah LSM RELATED TABLES
+ INPUT LANDUSE = USGS
+ LANDUSE TYPE = USGS FOUND          27  CATEGORIES
+ INPUT SOIL TEXTURE CLASSIFICAION = STAS
+ SOIL TEXTURE CLASSIFICATION = STAS FOUND          19  CATEGORIES
+ INITIALIZE THREE Noah LSM RELATED TABLES
+ INPUT LANDUSE = USGS
+ LANDUSE TYPE = USGS FOUND          27  CATEGORIES
+ INPUT SOIL TEXTURE CLASSIFICAION = STAS
+ SOIL TEXTURE CLASSIFICATION = STAS FOUND          19  CATEGORIES
+main: time 2001-06-11_12:00:06 em_t_2      9.76580811
+main: time 2001-06-11_12:00:13 em_t_2      9.76577759
+main: time 2001-06-11_12:00:20 em_t_2      9.76571655
+main: time 2001-06-11_12:00:20 em_t_2     10.35632324
+main: time 2001-06-11_12:00:26 em_t_2      9.76565552
+main: time 2001-06-11_12:00:33 em_t_2      9.76562500
+main: time 2001-06-11_12:00:40 em_t_2      9.76559448
+main: time 2001-06-11_12:00:40 em_t_2     10.35556030
+main: time 2001-06-11_12:00:46 em_t_2      9.76553345
+main: time 2001-06-11_12:00:53 em_t_2      9.76550293
+main: time 2001-06-11_12:01:00 em_t_2      9.76547241
+main: time 2001-06-11_12:01:00 em_t_2     10.35482788
+main: time 2001-06-11_12:01:00 em_t_2     11.43182373
+main: time 2001-06-11_12:01:06 em_t_2      9.76547241
+main: time 2001-06-11_12:01:13 em_t_2      9.76541138
+main: time 2001-06-11_12:01:20 em_t_2      9.76535034
+main: time 2001-06-11_12:01:20 em_t_2     10.35406494
+main: time 2001-06-11_12:01:26 em_t_2      9.76528931
+main: time 2001-06-11_12:01:33 em_t_2      9.76525879
+main: time 2001-06-11_12:01:40 em_t_2      9.76522827
+main: time 2001-06-11_12:01:40 em_t_2     10.35327148
+main: time 2001-06-11_12:01:46 em_t_2      9.76519775
+main: time 2001-06-11_12:01:53 em_t_2      9.76516724
+main: time 2001-06-11_12:02:00 em_t_2      9.76519775
+main: time 2001-06-11_12:02:00 em_t_2     10.35244751
+main: time 2001-06-11_12:02:00 em_t_2     11.43389893
+main: time 2001-06-11_12:02:06 em_t_2      9.76519775
+main: time 2001-06-11_12:02:13 em_t_2      9.76513672
+main: time 2001-06-11_12:02:20 em_t_2      9.76504517
+main: time 2001-06-11_12:02:20 em_t_2     10.35153198
+main: time 2001-06-11_12:02:26 em_t_2      9.76495361
+main: time 2001-06-11_12:02:33 em_t_2      9.76486206
+main: time 2001-06-11_12:02:40 em_t_2      9.76480103
+main: time 2001-06-11_12:02:40 em_t_2     10.35064697
+main: time 2001-06-11_12:02:46 em_t_2      9.76473999
+main: time 2001-06-11_12:02:53 em_t_2      9.76467896
+main: time 2001-06-11_12:03:00 em_t_2      9.76461792
+main: time 2001-06-11_12:03:00 em_t_2     10.34979248
+main: time 2001-06-11_12:03:00 em_t_2     11.43560791
+main: time 2001-06-11_12:03:06 em_t_2      9.76455688
+main: time 2001-06-11_12:03:13 em_t_2      9.76446533
+main: time 2001-06-11_12:03:20 em_t_2      9.76437378
+main: time 2001-06-11_12:03:20 em_t_2     10.34899902
+main: time 2001-06-11_12:03:26 em_t_2      9.76428223
+main: time 2001-06-11_12:03:33 em_t_2      9.76419067
+main: time 2001-06-11_12:03:40 em_t_2      9.76412964
+main: time 2001-06-11_12:03:40 em_t_2     10.34820557
+main: time 2001-06-11_12:03:46 em_t_2      9.76409912
+main: time 2001-06-11_12:03:53 em_t_2      9.76403809
+main: time 2001-06-11_12:04:00 em_t_2      9.76400757
+main: time 2001-06-11_12:04:00 em_t_2     10.34744263
+main: time 2001-06-11_12:04:00 em_t_2     11.43780518
+main: time 2001-06-11_12:04:06 em_t_2      9.76397705
+main: time 2001-06-11_12:04:13 em_t_2      9.76397705
+main: time 2001-06-11_12:04:20 em_t_2      9.76397705
+main: time 2001-06-11_12:04:20 em_t_2     10.34664917
+main: time 2001-06-11_12:04:26 em_t_2      9.76394653
+main: time 2001-06-11_12:04:33 em_t_2      9.76391602
+main: time 2001-06-11_12:04:40 em_t_2      9.76391602
+main: time 2001-06-11_12:04:40 em_t_2     10.34585571
+main: time 2001-06-11_12:04:46 em_t_2      9.76388550
+main: time 2001-06-11_12:04:53 em_t_2      9.76385498
+main: time 2001-06-11_12:05:00 em_t_2      9.76379395
+main: time 2001-06-11_12:05:00 em_t_2     10.34506226
+main: time 2001-06-11_12:05:00 em_t_2     11.43978882
+main: time 2001-06-11_12:05:06 em_t_2      9.76376343
+main: time 2001-06-11_12:05:13 em_t_2      9.76373291
+main: time 2001-06-11_12:05:20 em_t_2      9.76370239
+main: time 2001-06-11_12:05:20 em_t_2     10.34426880
+main: time 2001-06-11_12:05:26 em_t_2      9.76367188
+main: time 2001-06-11_12:05:33 em_t_2      9.76364136
+main: time 2001-06-11_12:05:40 em_t_2      9.76361084
+main: time 2001-06-11_12:05:40 em_t_2     10.34350586
+main: time 2001-06-11_12:05:46 em_t_2      9.76358032
+main: time 2001-06-11_12:05:53 em_t_2      9.76354980
+main: time 2001-06-11_12:06:00 em_t_2      9.76348877
+main: time 2001-06-11_12:06:00 em_t_2     10.34271240
+main: time 2001-06-11_12:06:00 em_t_2     11.44165039
+main: time 2001-06-11_12:06:06 em_t_2      9.76342773
+main: time 2001-06-11_12:06:13 em_t_2      9.76339722
+main: time 2001-06-11_12:06:20 em_t_2      9.76339722
+main: time 2001-06-11_12:06:20 em_t_2     10.34188843
+main: time 2001-06-11_12:06:26 em_t_2      9.76339722
+main: time 2001-06-11_12:06:33 em_t_2      9.76339722
+main: time 2001-06-11_12:06:40 em_t_2      9.76339722
+main: time 2001-06-11_12:06:40 em_t_2     10.34106445
+main: time 2001-06-11_12:06:46 em_t_2      9.76339722
+main: time 2001-06-11_12:06:53 em_t_2      9.76339722
+main: time 2001-06-11_12:07:00 em_t_2      9.76339722
+main: time 2001-06-11_12:07:00 em_t_2     10.34027100
+main: time 2001-06-11_12:07:00 em_t_2     11.44372559
+main: time 2001-06-11_12:07:06 em_t_2      9.76333618
+main: time 2001-06-11_12:07:13 em_t_2      9.76327515
+main: time 2001-06-11_12:07:20 em_t_2      9.76321411
+main: time 2001-06-11_12:07:20 em_t_2     10.33947754
+main: time 2001-06-11_12:07:26 em_t_2      9.76315308
+main: time 2001-06-11_12:07:33 em_t_2      9.76309204
+main: time 2001-06-11_12:07:40 em_t_2      9.76303101
+main: time 2001-06-11_12:07:40 em_t_2     10.33865356
+main: time 2001-06-11_12:07:46 em_t_2      9.76300049
+main: time 2001-06-11_12:07:53 em_t_2      9.76293945
+main: time 2001-06-11_12:08:00 em_t_2      9.76287842
+main: time 2001-06-11_12:08:00 em_t_2     10.33782959
+main: time 2001-06-11_12:08:00 em_t_2     11.44555664
+main: time 2001-06-11_12:08:06 em_t_2      9.76284790
+main: time 2001-06-11_12:08:13 em_t_2      9.76281738
+main: time 2001-06-11_12:08:20 em_t_2      9.76275635
+main: time 2001-06-11_12:08:20 em_t_2     10.33700562
+main: time 2001-06-11_12:08:26 em_t_2      9.76272583
+main: time 2001-06-11_12:08:33 em_t_2      9.76269531
+main: time 2001-06-11_12:08:40 em_t_2      9.76266479
+main: time 2001-06-11_12:08:40 em_t_2     10.33618164
+main: time 2001-06-11_12:08:46 em_t_2      9.76263428
+main: time 2001-06-11_12:08:53 em_t_2      9.76263428
+main: time 2001-06-11_12:09:00 em_t_2      9.76260376
+main: time 2001-06-11_12:09:00 em_t_2     10.33535767
+main: time 2001-06-11_12:09:00 em_t_2     11.44720459
+main: time 2001-06-11_12:09:06 em_t_2      9.76257324
+main: time 2001-06-11_12:09:13 em_t_2      9.76257324
+main: time 2001-06-11_12:09:20 em_t_2      9.76257324
+main: time 2001-06-11_12:09:20 em_t_2     10.33450317
+main: time 2001-06-11_12:09:26 em_t_2      9.76251221
+main: time 2001-06-11_12:09:33 em_t_2      9.76245117
+main: time 2001-06-11_12:09:40 em_t_2      9.76239014
+main: time 2001-06-11_12:09:40 em_t_2     10.33364868
+main: time 2001-06-11_12:09:46 em_t_2      9.76229858
+main: time 2001-06-11_12:09:53 em_t_2      9.76223755
+main: time 2001-06-11_12:10:00 em_t_2      9.76217651
+main: time 2001-06-11_12:10:00 em_t_2     10.33282471
+main: time 2001-06-11_12:10:00 em_t_2     11.44900513
+main: time 2001-06-11_12:10:06 em_t_2      9.76208496
+main: time 2001-06-11_12:10:13 em_t_2      9.76196289
+main: time 2001-06-11_12:10:20 em_t_2      9.76187134
+main: time 2001-06-11_12:10:20 em_t_2     10.33197021
+main: time 2001-06-11_12:10:26 em_t_2      9.76177979
+main: time 2001-06-11_12:10:33 em_t_2      9.76168823
+main: time 2001-06-11_12:10:40 em_t_2      9.76159668
+main: time 2001-06-11_12:10:40 em_t_2     10.33111572
+main: time 2001-06-11_12:10:46 em_t_2      9.76147461
+main: time 2001-06-11_12:10:53 em_t_2      9.76135254
+main: time 2001-06-11_12:11:00 em_t_2      9.76123047
+main: time 2001-06-11_12:11:00 em_t_2     10.33026123
+main: time 2001-06-11_12:11:00 em_t_2     11.45050049
+main: time 2001-06-11_12:11:06 em_t_2      9.76107788
+main: time 2001-06-11_12:11:13 em_t_2      9.76089478
+main: time 2001-06-11_12:11:20 em_t_2      9.76071167
+main: time 2001-06-11_12:11:20 em_t_2     10.32937622
+main: time 2001-06-11_12:11:26 em_t_2      9.76052856
+main: time 2001-06-11_12:11:33 em_t_2      9.76031494
+main: time 2001-06-11_12:11:40 em_t_2      9.76010132
+main: time 2001-06-11_12:11:40 em_t_2     10.32849121
+main: time 2001-06-11_12:11:46 em_t_2      9.75988770
+main: time 2001-06-11_12:11:53 em_t_2      9.75967407
+main: time 2001-06-11_12:12:00 em_t_2      9.75942993
+main: time 2001-06-11_12:12:00 em_t_2     10.32766724
+main: time 2001-06-11_12:12:00 em_t_2     11.45190430
+main: time 2001-06-11_12:12:06 em_t_2      9.75918579
+main: time 2001-06-11_12:12:13 em_t_2      9.75894165
+main: time 2001-06-11_12:12:20 em_t_2      9.75869751
+main: time 2001-06-11_12:12:20 em_t_2     10.32684326
+main: time 2001-06-11_12:12:26 em_t_2      9.75845337
+main: time 2001-06-11_12:12:33 em_t_2      9.75820923
+main: time 2001-06-11_12:12:40 em_t_2      9.75796509
+main: time 2001-06-11_12:12:40 em_t_2     10.32598877
+main: time 2001-06-11_12:12:46 em_t_2      9.75769043
+main: time 2001-06-11_12:12:53 em_t_2      9.75744629
+main: time 2001-06-11_12:13:00 em_t_2      9.75717163
+main: time 2001-06-11_12:13:00 em_t_2     10.32513428
+main: time 2001-06-11_12:13:00 em_t_2     11.45333862
+main: time 2001-06-11_12:13:06 em_t_2      9.75689697
+main: time 2001-06-11_12:13:13 em_t_2      9.75662231
+main: time 2001-06-11_12:13:20 em_t_2      9.75634766
+main: time 2001-06-11_12:13:20 em_t_2     10.32427979
+main: time 2001-06-11_12:13:26 em_t_2      9.75607300
+main: time 2001-06-11_12:13:33 em_t_2      9.75579834
+main: time 2001-06-11_12:13:40 em_t_2      9.75549316
+main: time 2001-06-11_12:13:40 em_t_2     10.32342529
+main: time 2001-06-11_12:13:46 em_t_2      9.75518799
+main: time 2001-06-11_12:13:53 em_t_2      9.75488281
+main: time 2001-06-11_12:14:00 em_t_2      9.75457764
+main: time 2001-06-11_12:14:00 em_t_2     10.32257080
+main: time 2001-06-11_12:14:00 em_t_2     11.45486450
+main: time 2001-06-11_12:14:06 em_t_2      9.75427246
+main: time 2001-06-11_12:14:13 em_t_2      9.75393677
+main: time 2001-06-11_12:14:20 em_t_2      9.75360107
+main: time 2001-06-11_12:14:20 em_t_2     10.32174683
+main: time 2001-06-11_12:14:26 em_t_2      9.75329590
+main: time 2001-06-11_12:14:33 em_t_2      9.75299072
+main: time 2001-06-11_12:14:40 em_t_2      9.75268555
+main: time 2001-06-11_12:14:40 em_t_2     10.32092285
+main: time 2001-06-11_12:14:46 em_t_2      9.75241089
+main: time 2001-06-11_12:14:53 em_t_2      9.75210571
+main: time 2001-06-11_12:15:00 em_t_2      9.75180054
+main: time 2001-06-11_12:15:00 em_t_2     10.32009888
+main: time 2001-06-11_12:15:00 em_t_2     11.45629883
+main: time 2001-06-11_12:15:06 em_t_2      9.75152588
+main: time 2001-06-11_12:15:13 em_t_2      9.75125122
+main: time 2001-06-11_12:15:20 em_t_2      9.75100708
+main: time 2001-06-11_12:15:20 em_t_2     10.31933594
+main: time 2001-06-11_12:15:26 em_t_2      9.75079346
+main: time 2001-06-11_12:15:33 em_t_2      9.75061035
+main: time 2001-06-11_12:15:40 em_t_2      9.75042725
+main: time 2001-06-11_12:15:40 em_t_2     10.31857300
+main: time 2001-06-11_12:15:46 em_t_2      9.75027466
+main: time 2001-06-11_12:15:53 em_t_2      9.75012207
+main: time 2001-06-11_12:16:00 em_t_2      9.74996948
+main: time 2001-06-11_12:16:00 em_t_2     10.31784058
+main: time 2001-06-11_12:16:00 em_t_2     11.45764160
+main: time 2001-06-11_12:16:06 em_t_2      9.74981689
+main: time 2001-06-11_12:16:13 em_t_2      9.74966431
+main: time 2001-06-11_12:16:20 em_t_2      9.74951172
+main: time 2001-06-11_12:16:20 em_t_2     10.31710815
+main: time 2001-06-11_12:16:26 em_t_2      9.74938965
+main: time 2001-06-11_12:16:33 em_t_2      9.74926758
+main: time 2001-06-11_12:16:40 em_t_2      9.74914551
+main: time 2001-06-11_12:16:40 em_t_2     10.31640625
+main: time 2001-06-11_12:16:46 em_t_2      9.74902344
+main: time 2001-06-11_12:16:53 em_t_2      9.74890137
+main: time 2001-06-11_12:17:00 em_t_2      9.74877930
+main: time 2001-06-11_12:17:00 em_t_2     10.31570435
+main: time 2001-06-11_12:17:00 em_t_2     11.45901489
+main: time 2001-06-11_12:17:06 em_t_2      9.74868774
+main: time 2001-06-11_12:17:13 em_t_2      9.74859619
+main: time 2001-06-11_12:17:20 em_t_2      9.74853516
+main: time 2001-06-11_12:17:20 em_t_2     10.31503296
+main: time 2001-06-11_12:17:26 em_t_2      9.74847412
+main: time 2001-06-11_12:17:33 em_t_2      9.74844360
+main: time 2001-06-11_12:17:40 em_t_2      9.74841309
+main: time 2001-06-11_12:17:40 em_t_2     10.31442261
+main: time 2001-06-11_12:17:46 em_t_2      9.74838257
+main: time 2001-06-11_12:17:53 em_t_2      9.74835205
+main: time 2001-06-11_12:18:00 em_t_2      9.74835205
+main: time 2001-06-11_12:18:00 em_t_2     10.31378174
+main: time 2001-06-11_12:18:00 em_t_2     11.46035767
+main: time 2001-06-11_12:18:06 em_t_2      9.74835205
+main: time 2001-06-11_12:18:13 em_t_2      9.74835205
+main: time 2001-06-11_12:18:20 em_t_2      9.74838257
+main: time 2001-06-11_12:18:20 em_t_2     10.31320190
+main: time 2001-06-11_12:18:26 em_t_2      9.74838257
+main: time 2001-06-11_12:18:33 em_t_2      9.74838257
+main: time 2001-06-11_12:18:40 em_t_2      9.74838257
+main: time 2001-06-11_12:18:40 em_t_2     10.31265259
+main: time 2001-06-11_12:18:46 em_t_2      9.74838257
+main: time 2001-06-11_12:18:53 em_t_2      9.74838257
+main: time 2001-06-11_12:19:00 em_t_2      9.74838257
+main: time 2001-06-11_12:19:00 em_t_2     10.31213379
+main: time 2001-06-11_12:19:00 em_t_2     11.46160889
+main: time 2001-06-11_12:19:06 em_t_2      9.74838257
+main: time 2001-06-11_12:19:13 em_t_2      9.74838257
+main: time 2001-06-11_12:19:20 em_t_2      9.74838257
+main: time 2001-06-11_12:19:20 em_t_2     10.31164551
+main: time 2001-06-11_12:19:26 em_t_2      9.74838257
+main: time 2001-06-11_12:19:33 em_t_2      9.74835205
+main: time 2001-06-11_12:19:40 em_t_2      9.74832153
+main: time 2001-06-11_12:19:40 em_t_2     10.31115723
+main: time 2001-06-11_12:19:46 em_t_2      9.74829102
+main: time 2001-06-11_12:19:53 em_t_2      9.74826050
+main: time 2001-06-11_12:20:00 em_t_2      9.74822998
+main: time 2001-06-11_12:20:00 em_t_2     10.31069946
+main: time 2001-06-11_12:20:00 em_t_2     11.46276855
+main: time 2001-06-11_12:20:06 em_t_2      9.74816895
+main: time 2001-06-11_12:20:13 em_t_2      9.74810791
+main: time 2001-06-11_12:20:20 em_t_2      9.74804688
+main: time 2001-06-11_12:20:20 em_t_2     10.31024170
+main: time 2001-06-11_12:20:26 em_t_2      9.74795532
+main: time 2001-06-11_12:20:33 em_t_2      9.74783325
+main: time 2001-06-11_12:20:40 em_t_2      9.74771118
+main: time 2001-06-11_12:20:40 em_t_2     10.30981445
+main: time 2001-06-11_12:20:46 em_t_2      9.74755859
+main: time 2001-06-11_12:20:53 em_t_2      9.74737549
+main: time 2001-06-11_12:21:00 em_t_2      9.74716187
+main: time 2001-06-11_12:21:00 em_t_2     10.30938721
+main: time 2001-06-11_12:21:00 em_t_2     11.46383667
+main: time 2001-06-11_12:21:06 em_t_2      9.74694824
+main: time 2001-06-11_12:21:13 em_t_2      9.74673462
+main: time 2001-06-11_12:21:20 em_t_2      9.74652100
+main: time 2001-06-11_12:21:20 em_t_2     10.30892944
+main: time 2001-06-11_12:21:26 em_t_2      9.74627686
+main: time 2001-06-11_12:21:33 em_t_2      9.74603271
+main: time 2001-06-11_12:21:40 em_t_2      9.74575806
+main: time 2001-06-11_12:21:40 em_t_2     10.30844116
+main: time 2001-06-11_12:21:46 em_t_2      9.74548340
+main: time 2001-06-11_12:21:53 em_t_2      9.74517822
+main: time 2001-06-11_12:22:00 em_t_2      9.74487305
+main: time 2001-06-11_12:22:00 em_t_2     10.30795288
+main: time 2001-06-11_12:22:00 em_t_2     11.46481323
+main: time 2001-06-11_12:22:06 em_t_2      9.74456787
+main: time 2001-06-11_12:22:13 em_t_2      9.74426270
+main: time 2001-06-11_12:22:20 em_t_2      9.74395752
+main: time 2001-06-11_12:22:20 em_t_2     10.30746460
+main: time 2001-06-11_12:22:26 em_t_2      9.74365234
+main: time 2001-06-11_12:22:33 em_t_2      9.74331665
+main: time 2001-06-11_12:22:40 em_t_2      9.74298096
+main: time 2001-06-11_12:22:40 em_t_2     10.30700684
+main: time 2001-06-11_12:22:46 em_t_2      9.74261475
+main: time 2001-06-11_12:22:53 em_t_2      9.74224854
+main: time 2001-06-11_12:23:00 em_t_2      9.74188232
+main: time 2001-06-11_12:23:00 em_t_2     10.30648804
+main: time 2001-06-11_12:23:00 em_t_2     11.46569824
+main: time 2001-06-11_12:23:06 em_t_2      9.74151611
+main: time 2001-06-11_12:23:13 em_t_2      9.74114990
+main: time 2001-06-11_12:23:20 em_t_2      9.74078369
+main: time 2001-06-11_12:23:20 em_t_2     10.30596924
+main: time 2001-06-11_12:23:26 em_t_2      9.74041748
+main: time 2001-06-11_12:23:33 em_t_2      9.74008179
+main: time 2001-06-11_12:23:40 em_t_2      9.73974609
+main: time 2001-06-11_12:23:40 em_t_2     10.30541992
+main: time 2001-06-11_12:23:46 em_t_2      9.73941040
+main: time 2001-06-11_12:23:53 em_t_2      9.73910522
+main: time 2001-06-11_12:24:00 em_t_2      9.73880005
+main: time 2001-06-11_12:24:00 em_t_2     10.30484009
+main: time 2001-06-11_12:24:00 em_t_2     11.46661377
+main: time 2001-06-11_12:24:06 em_t_2      9.73849487
+main: time 2001-06-11_12:24:13 em_t_2      9.73822021
+main: time 2001-06-11_12:24:20 em_t_2      9.73797607
+main: time 2001-06-11_12:24:20 em_t_2     10.30426025
+main: time 2001-06-11_12:24:26 em_t_2      9.73773193
+main: time 2001-06-11_12:24:33 em_t_2      9.73751831
+main: time 2001-06-11_12:24:40 em_t_2      9.73730469
+main: time 2001-06-11_12:24:40 em_t_2     10.30361938
+main: time 2001-06-11_12:24:46 em_t_2      9.73712158
+main: time 2001-06-11_12:24:53 em_t_2      9.73693848
+main: time 2001-06-11_12:25:00 em_t_2      9.73678589
+main: time 2001-06-11_12:25:00 em_t_2     10.30297852
+main: time 2001-06-11_12:25:00 em_t_2     11.46743774
+main: time 2001-06-11_12:25:06 em_t_2      9.73663330
+main: time 2001-06-11_12:25:13 em_t_2      9.73648071
+main: time 2001-06-11_12:25:20 em_t_2      9.73635864
+main: time 2001-06-11_12:25:20 em_t_2     10.30230713
+main: time 2001-06-11_12:25:26 em_t_2      9.73623657
+main: time 2001-06-11_12:25:33 em_t_2      9.73617554
+main: time 2001-06-11_12:25:40 em_t_2      9.73611450
+main: time 2001-06-11_12:25:40 em_t_2     10.30163574
+main: time 2001-06-11_12:25:46 em_t_2      9.73608398
+main: time 2001-06-11_12:25:53 em_t_2      9.73605347
+main: time 2001-06-11_12:26:00 em_t_2      9.73605347
+main: time 2001-06-11_12:26:00 em_t_2     10.30096436
+main: time 2001-06-11_12:26:00 em_t_2     11.46817017
+main: time 2001-06-11_12:26:06 em_t_2      9.73605347
+main: time 2001-06-11_12:26:13 em_t_2      9.73605347
+main: time 2001-06-11_12:26:20 em_t_2      9.73608398
+main: time 2001-06-11_12:26:20 em_t_2     10.30026245
+main: time 2001-06-11_12:26:26 em_t_2      9.73611450
+main: time 2001-06-11_12:26:33 em_t_2      9.73617554
+main: time 2001-06-11_12:26:40 em_t_2      9.73626709
+main: time 2001-06-11_12:26:40 em_t_2     10.29956055
+main: time 2001-06-11_12:26:46 em_t_2      9.73635864
+main: time 2001-06-11_12:26:53 em_t_2      9.73645020
+main: time 2001-06-11_12:27:00 em_t_2      9.73654175
+main: time 2001-06-11_12:27:00 em_t_2     10.29885864
+main: time 2001-06-11_12:27:00 em_t_2     11.46868896
+main: time 2001-06-11_12:27:06 em_t_2      9.73666382
+main: time 2001-06-11_12:27:13 em_t_2      9.73675537
+main: time 2001-06-11_12:27:20 em_t_2      9.73684692
+main: time 2001-06-11_12:27:20 em_t_2     10.29812622
+main: time 2001-06-11_12:27:26 em_t_2      9.73693848
+main: time 2001-06-11_12:27:33 em_t_2      9.73706055
+main: time 2001-06-11_12:27:40 em_t_2      9.73718262
+main: time 2001-06-11_12:27:40 em_t_2     10.29742432
+main: time 2001-06-11_12:27:46 em_t_2      9.73730469
+main: time 2001-06-11_12:27:53 em_t_2      9.73742676
+main: time 2001-06-11_12:28:00 em_t_2      9.73754883
+main: time 2001-06-11_12:28:00 em_t_2     10.29669189
+main: time 2001-06-11_12:28:00 em_t_2     11.46908569
+main: time 2001-06-11_12:28:06 em_t_2      9.73767090
+main: time 2001-06-11_12:28:13 em_t_2      9.73779297
+main: time 2001-06-11_12:28:20 em_t_2      9.73791504
+main: time 2001-06-11_12:28:20 em_t_2     10.29595947
+main: time 2001-06-11_12:28:26 em_t_2      9.73806763
+main: time 2001-06-11_12:28:33 em_t_2      9.73822021
+main: time 2001-06-11_12:28:40 em_t_2      9.73840332
+main: time 2001-06-11_12:28:40 em_t_2     10.29519653
+main: time 2001-06-11_12:28:46 em_t_2      9.73858643
+main: time 2001-06-11_12:28:53 em_t_2      9.73876953
+main: time 2001-06-11_12:29:00 em_t_2      9.73895264
+main: time 2001-06-11_12:29:00 em_t_2     10.29443359
+main: time 2001-06-11_12:29:00 em_t_2     11.46932983
+main: time 2001-06-11_12:29:06 em_t_2      9.73913574
+main: time 2001-06-11_12:29:13 em_t_2      9.73931885
+main: time 2001-06-11_12:29:20 em_t_2      9.73950195
+main: time 2001-06-11_12:29:20 em_t_2     10.29367065
+main: time 2001-06-11_12:29:26 em_t_2      9.73968506
+main: time 2001-06-11_12:29:33 em_t_2      9.73986816
+main: time 2001-06-11_12:29:40 em_t_2      9.74005127
+main: time 2001-06-11_12:29:40 em_t_2     10.29290771
+main: time 2001-06-11_12:29:46 em_t_2      9.74023438
+main: time 2001-06-11_12:29:53 em_t_2      9.74041748
+main: time 2001-06-11_12:30:00 em_t_2      9.74060059
+main: time 2001-06-11_12:30:00 em_t_2     10.29214478
+main: time 2001-06-11_12:30:00 em_t_2     11.46939087
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG
++ date -R
+Thu, 01 Jan 1970 01:09:20 +0000
++ set +x
+======== END   wrf ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/wrf/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/wrf/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 3030932033109[0m

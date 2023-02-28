@@ -1,0 +1,751 @@
+bbl loader
+freq-mhz = 500
+CLINT: set frequency to 500 MHz
+              vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrrrr    vvvvvvvvvvvvvvvvvvvvvvvv
+rrrrrrrrrrrrrrrr      vvvvvvvvvvvvvvvvvvvvvv  
+rrrrrrrrrrrrr       vvvvvvvvvvvvvvvvvvvvvv    
+rr                vvvvvvvvvvvvvvvvvvvvvv      
+rr            vvvvvvvvvvvvvvvvvvvvvvvv      rr
+rrrr      vvvvvvvvvvvvvvvvvvvvvvvvvv      rrrr
+rrrrrr      vvvvvvvvvvvvvvvvvvvvvv      rrrrrr
+rrrrrrrr      vvvvvvvvvvvvvvvvvv      rrrrrrrr
+rrrrrrrrrr      vvvvvvvvvvvvvv      rrrrrrrrrr
+rrrrrrrrrrrr      vvvvvvvvvv      rrrrrrrrrrrr
+rrrrrrrrrrrrrr      vvvvvv      rrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrr      vv      rrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr          rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrr      rrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr  rrrrrrrrrrrrrrrrrrrrrr
+
+       INSTRUCTION SETS WANT TO BE FREE
+[    0.000000] OF: fdt: Ignoring memory range 0x80000000 - 0x80200000
+[    0.000000] Linux version 4.18.0-14481-ga4570dd88648 (zfw@xiangshan-08) (gcc version 10.2.0 (GCC)) #433 Fri Sep 10 16:28:07 CST 2021
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Initial ramdisk at: 0x(____ptrval____) (12462080 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080200000-0x00000000ffffffff]
+[    0.000000] software IO TLB [mem 0xfa3ff000-0xfe3ff000] (64MB) mapped at [(____ptrval____)-(____ptrval____)]
+[    0.000000] elf_hwcap is 0x112d
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516615
+[    0.000000] Kernel command line: root=/dev/mmcblk0 rootfstype=ext4 ro rootwait earlycon
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1984148K/2095104K available (699K kernel code, 78K rwdata, 102K rodata, 12232K init, 98K bss, 110956K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 0, nr_irqs: 0, preallocated irqs: 0
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1d854df40, max_idle_ns: 3526361616960 ns
+[    0.000000] console [hvc0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] bootconsole [early0] disabled
+[    0.000000] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.000000] pid_max: default: 4096 minimum: 301
+[    0.000000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.000000] clocksource: Switched to clocksource riscv_clocksource
+[    0.520000] Unpacking initramfs...
+[    1.060000] workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    1.070000] random: get_random_bytes called from 0xffffffff80bf5c42 with crng_init=0
+[    1.110000] Freeing unused kernel memory: 12232K
+[    1.110000] This architecture does not have kernel memory protection.
+init started: BusyBox v1.29.3 (2021-01-05 15:03:32 CST)
+starting pid 13, tty '': '/bin/busybox --install -s'
+starting pid 14, tty '/dev/console': '-/bin/sh /spec/run.sh'
+=== exec before workload (profiling && time intr) ===
+===== Start running SPEC2006 =====
+======== BEGIN gobmk_nngs ========
++ md5sum /spec/gobmk_base.riscv64-unknown-linux-gnu-gcc-10.2.0
+43efe886a8e51c2923fd7ae161a02def  /spec/gobmk_base.riscv64-unknown-linux-gnu-gcc-10.2.0
++ date -R
+Thu, 01 Jan 1970 00:00:03 +0000
++ cd /spec
++ ./gobmk_base.riscv64-unknown-linux-gnu-gcc-10.2.0 --quiet --mode gtp
+= black
+
+=100 K2
+
+= black
+
+=110 L2
+
+= black
+
+=120 R5
+
+= black
+
+=130 M2
+
+= black
+
+=140 O2
+
+= black
+
+=150 O11
+
+= black
+
+=170 N10
+
+= black
+
+=180 K9
+
+= black
+
+=190 M13
+
+= black
+
+=200 O14
+
+= black
+
+=210 P11
+
+= black
+
+=220 H14
+
+= black
+
+=230 K16
+
+= black
+
+=240 T6
+
+= black
+
+=250 S10
+
+= black
+
+=260 M17
+
+= black
+
+=270 M7
+
+= black
+
+=280 M7
+
+= black
+
+=290 D12
+
+= black
+
+=300 C13
+
+= black
+
+=310 B9
+
+= black
+
+=320 D17
+
+= black
+
+=330 D15
+
+= black
+
+=340 Q7
+
+= black
+
+=370 Q1
+
+= black
+
+=371 1 Q1
+
+= black
+
+=380 M3
+
+= black
+
+=390 N17
+
+= black
+
+=400 L12
+
+= black
+
+=410 J9
+
+= black
+
+=420 E4
+
+= black
+
+=430 C16
+
+= black
+
+=440 O2
+
+= black
+
+=480 G14
+
+= black
+
+=490 J18
+
+= black
+
+=500 J17
+
+= black
+
+=510 H14
+
+= black
+
+=530 M4
+
+= black
+
+=540 K11
+
+= black
+
+=550 P14
+
+= black
+
+=560 E11
+
+= black
+
+=570 G1
+
+= black
+
+=590 G4
+
+= black
+
+=600 H6
+
+= black
+
+=610 J8
+
+= white
+
+=620 P16
+
+= white
+
+=630 D6
+
+= white
+
+=640 D6
+
+= white
+
+=660 F4
+
+= white
+
+=680 P13
+
+= white
+
+=690 N13
+
+= white
+
+=700 K17
+
+= white
+
+=710 B12
+
+= white
+
+=720 A11
+
+= white
+
+=770 G9
+
+= white
+
+=800 O15
+
+= white
+
+=810 O15
+
+= white
+
+=820 L9
+
+= white
+
+=850 H15
+
+= white
+
+=860 N6
+
+= white
+
+=870 D19
+
+= white
+
+=875 PASS
+
+= white
+
+=880 H6
+
+= white
+
+=890 D1
+
+= white
+
+=900 Q15
+
+= white
+
+=910 T17
+
+= white
+
+=920 R5
+
+= white
+
+=930 O3
+
+= white
+
+=940 O3
+
+= white
+
+=950 F1
+
+= white
+
+=960 R16
+
+= white
+
+=970 L3
+
+= white
+
+=980 L3
+
+= white
+
+=990 L3
+
+= white
+
+=1000 K6
+
+= white
+
+=1010 Q16
+
+= white
+
+=1020 P2
+
+= white
+
+=1030 L18
+
+= white
+
+=1040 L17
+
+= white
+
+=1050 H11
+
+= white
+
+=1060 Q2
+
+= white
+
+=1070 Q2
+
+= white
+
+=1080 Q2
+
+= white
+
+=1090 J12
+
+= white
+
+=1100 F2
+
+= white
+
+=1110 J16
+
+= white
+
+=1120 D6
+
+= white
+
+=1130 C8
+
+= white
+
+=1140 1 A11
+
+= white
+
+=1150 H9
+
+= white
+
+=1160 A8
+
+= white
+
+=1170 K8
+
+= white
+
+=1180 L8
+
+= white
+
+=1190 1 PASS
+
+= white
+
+=1200 D13
+
+= white
+
+=1210 G3
+
+= white
+
+=1220 N16
+
+= white
+
+=1230 Q14
+
+= white
+
+=1240 J15
+
+= white
+
+=1250 K14
+
+= white
+
+=1260 B14
+
+= white
+
+=1270 B14
+
+= white
+
+=1280 J12
+
+= white
+
+=1300 T4
+
+= white
+
+=1310 Q15
+
+= white
+
+=1320 R6
+
+= black
+
+=1420 D12
+
+= black
+
+=1430 D12
+
+= black
+
+=1440 H10
+
+= white
+
+=1450 M8
+
+= white
+
+=1480 B1
+
+= white
+
+=1500 R16
+
+= white
+
+=1510 M16
+
+= white
+
+=1520 F14
+
+= white
+
+=1540 L9
+
+= white
+
+=1550 M8
+
+= white
+
+=1560 M8
+
+= white
+
+=1570 O13
+
+= black
+
+=1580 R14
+
+= black
+
+=1590 R14
+
+= black
+
+=1600 R14
+
+= black
+
+=1620 D2
+
+= black
+
+=1630 M1
+
+= black
+
+=1640 D1
+
+= black
+
+=1660 P14
+
+= black
+
+=1670 A15
+
+= black
+
+=1680 B8
+
+= black
+
+=1690 D8
+
+= black
+
+=1700 G12
+
+= black
+
+=1740 O2
+
+= black
+
+=1750 J9
+
+= black
+
+=1760 N7
+
+= black
+
+=1770 P1
+
+= black
+
+=1780 N1
+
+= black
+
+=1790 Q14
+
+= black
+
+=1800 Q14
+
+= black
+
+=1810 Q14
+
+= black
+
+=1830 J13
+
+= black
+
+=1840 K7
+
+= black
+
+=1860 L17
+
+= black
+
+=1870 L8
+
+= black
+
+=1880 L8
+
+= black
+
+=1890 H16
+
+= black
+
+=1900 F19
+
+= black
+
+=1910 E18
+
+= black
+
+=1920 J4
+
+= white
+
+=1930 P14
+
+= white
+
+=1940 P14
+
+= white
+
+=1950 K16
+
+= white
+
+=1955 D3
+
+= white
+
+=1960 R9
+
+= white
+
+=1970 F15
+
+= white
+
+=1980 F15
+
+= white
+
+=2000 H14
+
+= white
+
+=2010 H14
+
+= white
+
+=2020 H14
+
+= black
+
+=2030 G6
+
+= black
+
+=2040 E5
+
+= black
+
+=2050 D1
+
+= black
+
+=2060 C4
+
+=10002 0
+
++ date -R
+Thu, 01 Jan 1970 01:11:24 +0000
++ set +x
+======== END   gobmk_nngs ========
+===== Finish running SPEC2006 =====
+[1;34m[src/monitor/monitor.c,128,parse_args] Doing Simpoint Profiling[0m
+[1;34m[src/memory/paddr.c,27,allocate_mem] Main memory is at [0x80000000, 0x280000000][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'clint' at [0x38000000, 0x3800ffff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'sdhci' at [0x40002000, 0x4000207f][0m
+[1;34m[src/device/sdcard.c,131,init_sdcard] Can not find sdcard image: (null)[0m
+[1;34m[src/isa/riscv64/init.c,26,init_csr] Mstatus: 0xa00003800
+[0m
+[1;34m[src/monitor/monitor.c,85,load_img] The image is /bigdata/zfw/spec/bins/gobmk_nngs/bbl.bin[0m
+[1;34m[src/monitor/monitor.c,86,load_img] diff is (null)[0m
+[1;34m[src/monitor/monitor.c,93,load_img] Loading image to 0xa0000
+[0m
+[1;34m[src/monitor/monitor.c,63,load_gcpt_restorer] Opening restorer file: /home/zfw/NEMU/resource/gcpt_restore/build/gcpt.bin[0m
+[1;34m[src/monitor/monitor.c,48,welcome] Debug: [1;32mOFF[0m[0m
+[1;34m[src/monitor/monitor.c,51,welcome] Build time: 16:13:41, Sep  7 2021[0m
+Welcome to [1;41m[1;33mriscv64[0m-NEMU!
+For help, type "help"
+[1;34m[src/checkpoint/path_manager.cpp,33,init] Cpt id: -1[0m
+[1;34m[src/checkpoint/path_manager.cpp,55,setOutputDir] Created /bigdata/zfw/spec_cpt/profiling/gobmk_nngs/
+[0m
+[1;34m[src/checkpoint/simpoint.cpp,70,init] Doing simpoint profiling with interval 20000000[0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'screen' at [0x40001000, 0x40001007][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'vmem' at [0x50000000, 0x500752ff][0m
+[1;34m[src/device/io/mmio.c,13,add_mmio_map] Add mmio map 'uartlite' at [0x40600000, 0x4060000c][0m
+[1;34m[src/isa/riscv64/exec/special.c,38,exec_nemu_trap] Start profiling, resetting inst count
+[0m
+[1;34m[src/monitor/cpu-exec.c,110,cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x0000002aaaaaa5f6
+
+[0m
+[1;34m[src/monitor/cpu-exec.c,36,monitor_statistic] total guest instructions = 669630307496[0m
