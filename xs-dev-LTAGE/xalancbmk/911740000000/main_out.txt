@@ -1,0 +1,26 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:28:17
+gem5 executing on open26, pid 424432
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_911740000000_0.048996/0/_911740000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fb5e3392580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+hole plea thawed nimble chapel sinister swift the settled countess clamours cordelia desperate cur messenger mer mercy thrive wether sighs stool raised lieu drugs mirth hold calf greet catch subscribes quake angry infant nestor funeral should watchman sails mortimer bequeath mermaid determination frenchmen smoking mothers rings while osr manner duchess espy sentence loyalty feels refined experience noiseless unknown care become ears knavery capels always piteous noises dull green slipp english threat drift fair enrage blue resolution wing sentenc issue foes week danger basest friendship dam alone ourself norfolk nor able roaring sorrows please grasp foolishly fare dried rank league vanish these <i> hubert </i> fool lousy unusual done since staying attendants name <b> gods several rudeness deck bravely </b> icy plac muddied urs quantity several dotard commons burden thereof severally depos fancy speedily leaky waxen sword mystery 
+<p>Encrypted Version</p>
+ yretsym drows nexaw ykael ylideeps ycnaf soped yllareves foereht nedrub snommoc dratod lareves ytitnauq sru deiddum calp yci  ylevarb kced ssenedur lareves sdog  eman stnadnetta gniyats ecnis enod lausunu ysuol loof  trebuh  eseht hsinav eugael knar deird eraf ylhsiloof psarg esaelp sworros gniraor elba ron klofron flesruo enola mad pihsdneirf tsesab regnad keew seof eussi cnetnes gniw noituloser eulb egarne riaf tfird taerht hsilgne ppils neerg llud sesion suoetip syawla slepac yrevank srae emoceb erac nwonknu sselesion ecneirepxe denifer sleef ytlayol ecnetnes ypse ssehcud rennam rso elihw sgnir srehtom gnikoms nemhcnerf noitanimreted diamrem htaeuqeb remitrom slias namhctaw dluohs larenuf rotsen tnafni yrgna ekauq sebircsbus hctac teerg flac dloh htrim sgurd ueil desiar loots shgis rehtew evirht ycrem rem regnessem ruc etarepsed ailedroc sruomalc ssetnuoc delttes eht tfiws retsinis lepahc elbmin dewaht aelp eloh
+<br>
+</td><td>7</td>
+</tr>
+<tr valign="top">
+<td>person5641</td><td>person4701</td><td>item206</td><td>394.65</td><td>12/03/1999</td><td>1</td><td>person7773</td><td>(I) 
+Exiting @ tick 7621306000 because a thread reached the max instruction count

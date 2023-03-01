@@ -1,0 +1,26 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:50:28
+gem5 executing on open26, pid 429198
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_944140000000_0.056124/0/_944140000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7f6e961e3580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+semblable takes where church bright ingratitude companion like young speak friends pharsalia forbid religion split race doom personal leaving varro this hecate familiar eldest herod messengers substance <b> song wiser kindly </b> strangeness widow fresher faint ado odd saw miseries cicero depends happy health insupportable asham poorer his silly devoted rich suitor seal mouth wolf seeds lie must nobleman washes armour statesman wine countries somewhat welcome precious under nice wants aumerle wenches horrible pirate easiness depart acquaint tragedian turn petticoat <b> truant wassails </b> shut ink tumble promised narrow according unperfectness gloss region speaking <i> nut mantua deceas scrap gone design unremovably laertes apemantus important none actaeon yet ministers </i> antic dogs juliet corner entreat oracle kings star growth counselled himself revelling sage lend pots dukedoms deceiv god bond incontinent becks theft orders feeds company fulvia satisfied greeting panders red goest list meed sack 
+<p>Encrypted Version</p>
+ kcas deem tsil tseog der srednap gniteerg deifsitas aivluf ynapmoc sdeef sredro tfeht skceb tnenitnocni dnob dog vieced smodekud stop dnel egas gnillever flesmih dellesnuoc htworg rats sgnik elcaro taertne renroc teiluj sgod citna  sretsinim tey noeatca enon tnatropmi sutnamepa setreal ylbavomernu ngised enog parcs saeced autnam tun  gnikaeps noiger ssolg ssentcefrepnu gnidrocca worran desimorp elbmut kni tuhs  sliassaw tnaurt  taocittep nrut naidegart tniauqca traped ssenisae etarip elbirroh sehcnew elremua stnaw ecin rednu suoicerp emoclew tahwemos seirtnuoc eniw namsetats ruomra sehsaw namelbon tsum eil sdees flow htuom laes rotius hcir detoved yllis sih reroop mahsa elbatroppusni htlaeh yppah sdneped orecic seiresim was ddo oda tniaf rehserf wodiw ssenegnarts  yldnik resiw gnos  ecnatsbus sregnessem doreh tsedle railimaf etaceh siht orrav gnivael lanosrep mood ecar tilps noigiler dibrof ailasrahp sdneirf kaeps gnuoy ekil noinapmoc edutitargni thgirb hcruhc erehw sekat elbalbmes
+<br>
+</td><td>1</td>
+</tr>
+<tr valign="top">
+<td>person7483</td><td>person6404</td><td>item6484</td><td>136.63</td><td>12/08/1998</td><td>1</td><td>person7707</td><td>(I) 
+Exiting @ tick 6765400000 because a thread reached the max instruction count

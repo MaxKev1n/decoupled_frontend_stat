@@ -1,0 +1,18 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:30:51
+gem5 executing on open26, pid 424796
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/gcc_scilab_40760000000_0.025032/0/_40760000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fadf566b580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+Exiting @ tick 7526183500 because a thread reached the max instruction count

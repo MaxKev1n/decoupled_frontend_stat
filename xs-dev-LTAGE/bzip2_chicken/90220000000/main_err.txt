@@ -1,0 +1,12 @@
+build/RISCV/mem/dram_interface.cc:690: warn: DRAM device capacity (32768 Mbytes) does not match the address range assigned (8192 Mbytes)
+build/RISCV/arch/riscv/bare_metal/fs_workload.cc:60: info: No bootload provided, because using XS GCPT, reset to 0x80000000
+build/RISCV/cpu/base.cc:205: warn: cpu_id set to 0
+build/RISCV/cpu/base.cc:209: warn: Difftest is enabled with ref so: /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so.
+0: system.remote_gdb: listening for remote gdb on port 7041
+build/RISCV/sim/system.cc:556: info: Restoring from Xiangshan RISC-V Checkpoint
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/RISCV/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+Will start memcpy to NEMU from 0x7fb3a6d60000, size=8589934592
+Will start regcpy to NEMU
+Will trigger stat dump and reset
+build/RISCV/sim/simulate.cc:194: info: Entering event queue @ 5870556000.  Starting simulation...

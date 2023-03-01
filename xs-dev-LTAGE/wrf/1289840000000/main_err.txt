@@ -1,0 +1,714 @@
+build/RISCV/mem/dram_interface.cc:690: warn: DRAM device capacity (32768 Mbytes) does not match the address range assigned (8192 Mbytes)
+build/RISCV/arch/riscv/bare_metal/fs_workload.cc:60: info: No bootload provided, because using XS GCPT, reset to 0x80000000
+build/RISCV/cpu/base.cc:205: warn: cpu_id set to 0
+build/RISCV/cpu/base.cc:209: warn: Difftest is enabled with ref so: /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so.
+0: system.remote_gdb: listening for remote gdb on port 7046
+build/RISCV/sim/system.cc:556: info: Restoring from Xiangshan RISC-V Checkpoint
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/RISCV/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+Will start memcpy to NEMU from 0x7f333c17c000, size=8589934592
+Will start regcpy to NEMU
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14035924] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14035924] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x367740 is outside of physical memory, stopping fetch, 3664088000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x367740 is outside of physical memory, stopping fetch, 3665146500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14036776] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14036776] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x367740 is outside of physical memory, stopping fetch, 3665196500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14037064] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14037064] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14037340] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14037340] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14037616] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14037616] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14037892] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14037892] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14038168] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14038168] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14038444] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14038444] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14038720] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14038720] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14038996] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14038996] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14039272] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14039272] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14039770] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14039770] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14040257] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14040257] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14040726] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14040726] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14041196] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14041196] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14041622] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14041622] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14043011] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14043011] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14045241] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14045241] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14045494] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14045494] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14045770] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14045770] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14046060] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14046060] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14046336] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14046336] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14046612] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14046612] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14046888] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14046888] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14047164] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14047164] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14047440] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14047440] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14047716] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14047716] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14047992] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14047992] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14048268] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14048268] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14048584] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14048584] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14048893] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14048893] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14049169] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14049169] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14049595] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14049595] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14050435] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14050435] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14051939] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14051939] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14052245] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14052245] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14052558] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14052558] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14052834] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14052834] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14053206] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14053206] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14053571] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14053571] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14053929] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14053929] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14054280] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14054280] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14054624] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14054624] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14054961] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14054961] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14055291] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14055291] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14055614] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14055614] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14055930] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14055930] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14056239] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14056239] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14056515] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14056515] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14056941] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14056941] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14057776] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14057776] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14059305] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14059305] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14059611] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14059611] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14060523] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dce0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14060523] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14060799] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dce0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14060799] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0 is outside of physical memory, stopping fetch, 3702268500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14066260] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830de90, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14066260] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14139299] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14139299] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14139628] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14139628] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14139904] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14139904] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14140208] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14140208] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14140484] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14140484] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14140760] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14140760] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14141036] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14141036] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14141312] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14141312] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32e500 is outside of physical memory, stopping fetch, 3722526000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14141587] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14141587] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x333a00 is outside of physical memory, stopping fetch, 3723087000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14141862] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14141862] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32b2c0 is outside of physical memory, stopping fetch, 3723648000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14142137] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14142137] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32b580 is outside of physical memory, stopping fetch, 3724209000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14142412] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14142412] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32b580 is outside of physical memory, stopping fetch, 3724770000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14142687] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14142687] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32b580 is outside of physical memory, stopping fetch, 3725331000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14142962] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14142962] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32b580 is outside of physical memory, stopping fetch, 3725892000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14143237] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14143237] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14143663] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14143663] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14144631] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14144631] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14146578] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14146578] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14146854] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14146854] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14147130] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14147130] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14147406] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14147406] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14147778] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14147778] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14148143] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14148143] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14148501] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14148501] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14148852] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14148852] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14149196] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14149196] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14149533] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14149533] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14149863] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14149863] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14150189] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14150189] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14150505] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14150505] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14150814] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14150814] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14151090] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14151090] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14151516] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14151516] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14152191] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14152191] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14153502] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14153502] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14153778] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14153778] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14154054] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14154054] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14154330] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14154330] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14154702] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14154702] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14155067] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14155067] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14155425] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14155425] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14155776] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14155776] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14156120] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14156120] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14156457] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14156457] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14156787] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14156787] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14157110] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14157110] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14157426] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14157426] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14157735] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14157735] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14158011] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14158011] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14158437] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14158437] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14159112] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14159112] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14160170] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14160170] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14160446] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14160446] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14161148] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dce0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14161148] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14161424] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dce0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14161424] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14164095] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830de90, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14164095] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14227366] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14227366] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14227614] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14227614] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14227890] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14227890] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14228219] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14228219] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14228495] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14228495] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14228771] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14228771] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14229047] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14229047] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14229323] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14229323] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32e500 is outside of physical memory, stopping fetch, 3769812000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14229598] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14229598] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x333a00 is outside of physical memory, stopping fetch, 3770373000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14229873] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14229873] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32b2c0 is outside of physical memory, stopping fetch, 3770934000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14230148] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14230148] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32d040 is outside of physical memory, stopping fetch, 3771495000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14230423] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14230423] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32d2c0 is outside of physical memory, stopping fetch, 3772056000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14230698] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14230698] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x32d3c0 is outside of physical memory, stopping fetch, 3772617000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14230973] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14230973] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x6e680 is outside of physical memory, stopping fetch, 3773178000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14231248] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14231248] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14231524] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14231524] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14232492] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14232492] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14233880] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14233880] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14234156] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14234156] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14234432] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14234432] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14234708] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14234708] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14235080] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14235080] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14235445] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14235445] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14235803] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14235803] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14236154] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14236154] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14236498] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14236498] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14236835] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14236835] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14237165] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14237165] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14237488] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14237488] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14237804] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14237804] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14238113] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14238113] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14238389] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14238389] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14238815] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14238815] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14239441] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14239441] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14240599] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14240599] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14240875] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14240875] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14241151] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14241151] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14241427] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14241427] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14241799] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14241799] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14242164] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14242164] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14242522] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14242522] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14242873] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14242873] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14243217] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14243217] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14243554] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14243554] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14243884] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14243884] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14244207] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14244207] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14244523] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14244523] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14244832] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14244832] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14245108] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14245108] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14245534] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14245534] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14246160] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcc0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14246160] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14247138] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14247138] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14247414] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dcf0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14247414] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14248067] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dce0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14248067] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14248343] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830dce0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14248343] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14250422] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830de90, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14250422] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14256485] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff830de90, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14256485] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+Will trigger stat dump and reset
+build/RISCV/sim/simulate.cc:194: info: Entering event queue @ 4733601500.  Starting simulation...

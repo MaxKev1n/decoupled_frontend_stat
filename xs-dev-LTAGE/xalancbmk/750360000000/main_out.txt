@@ -1,0 +1,105 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:59:06
+gem5 executing on open26, pid 431109
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_750360000000_0.029834/0/_750360000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fafbd5cb580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+<td>01/22/1998</td><td>13:03:03</td><td>person4798</td><td>4.5</td>
+</tr>
+<tr>
+<td>12/08/1999</td><td>12:16:20</td><td>person3863</td><td>25.5</td>
+</tr>
+<tr>
+<td>07/21/2000</td><td>19:44:46</td><td>person9428</td><td>3</td>
+</tr>
+<tr>
+<td>01/16/2001</td><td>12:08:50</td><td>person11292</td><td>4.5</td>
+</tr>
+<tr>
+<td>02/09/2001</td><td>02:48:32</td><td>person4836</td><td>4.5</td>
+</tr>
+<tr>
+<td>08/10/2001</td><td>21:15:56</td><td>person4553</td><td>3</td>
+</tr>
+<tr>
+<td><b>Total Increase</b></td><td></td><td></td><td>45</td>
+</tr>
+</table>
+<p>
+<b>Item: </b>item4539<br>
+<b>Seller: </b>person6841<br>
+<b>Seller Rating: </b>1<br>
+<b>Description: </b>(I) 
+slave praise wisdoms naked worse images moment condemns drugs lightness beds ventidius bade gravity purposes gives grieves 
+<p>Encrypted Version</p>
+ seveirg sevig sesoprup ytivarg edab suiditnev sdeb ssenthgil sgurd snmednoc tnemom segami esrow dekan smodsiw esiarp evals
+<br>
+<br>
+<b>Opening bid: </b>97.12<br>
+<b>Current bid: </b>352.12<br>
+</p>
+<h3>Open Auction Activity: open_auction2289</h3>
+<table border="1">
+<tr>
+<th>Date</th><th>Time</th><th>Bidder</th><th>Increment</th>
+</tr>
+<tr>
+<td>03/08/1998</td><td>23:22:08</td><td>person12692</td><td>31.5</td>
+</tr>
+<tr>
+<td>03/20/1998</td><td>08:04:10</td><td>person124</td><td>12</td>
+</tr>
+<tr>
+<td>07/19/1998</td><td>02:22:05</td><td>person5900</td><td>33</td>
+</tr>
+<tr>
+<td>01/13/1999</td><td>17:44:50</td><td>person666</td><td>27</td>
+</tr>
+<tr>
+<td>02/08/1999</td><td>14:41:30</td><td>person3621</td><td>1.5</td>
+</tr>
+<tr>
+<td>05/09/1999</td><td>20:12:39</td><td>person5533</td><td>6</td>
+</tr>
+<tr>
+<td>10/10/1999</td><td>20:08:06</td><td>person919</td><td>6</td>
+</tr>
+<tr>
+<td>12/18/1999</td><td>04:24:27</td><td>person2588</td><td>60</td>
+</tr>
+<tr>
+<td>02/06/2000</td><td>05:27:34</td><td>person1909</td><td>4.5</td>
+</tr>
+<tr>
+<td>12/19/2000</td><td>05:07:11</td><td>person6624</td><td>31.5</td>
+</tr>
+<tr>
+<td>10/09/2001</td><td>11:16:19</td><td>person1485</td><td>4.5</td>
+</tr>
+<tr>
+<td>10/18/2001</td><td>08:51:20</td><td>person8962</td><td>1.5</td>
+</tr>
+<tr>
+<td>11/14/2001</td><td>23:12:47</td><td>person11380</td><td>36</td>
+</tr>
+<tr>
+<td><b>Total Increase</b></td><td></td><td></td><td>255</td>
+</tr>
+</table>
+<p>
+<b>Item: </b>item4540<br>
+<b>Seller: </b>person6782<br>
+<b>Seller Rating: </b>9<br>
+<b>Description: </b>(I) 
+Exiting @ tick 6623833500 because a thread reached the max instruction count

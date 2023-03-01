@@ -1,0 +1,1493 @@
+build/RISCV/mem/dram_interface.cc:690: warn: DRAM device capacity (32768 Mbytes) does not match the address range assigned (8192 Mbytes)
+build/RISCV/arch/riscv/bare_metal/fs_workload.cc:60: info: No bootload provided, because using XS GCPT, reset to 0x80000000
+build/RISCV/cpu/base.cc:205: warn: cpu_id set to 0
+build/RISCV/cpu/base.cc:209: warn: Difftest is enabled with ref so: /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so.
+0: system.remote_gdb: listening for remote gdb on port 7003
+build/RISCV/sim/system.cc:556: info: Restoring from Xiangshan RISC-V Checkpoint
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/RISCV/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+Will start memcpy to NEMU from 0x7fa87f334000, size=8589934592
+Will start regcpy to NEMU
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:100903] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:100903] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:117279] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:117279] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:216245] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:216245] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0xb09c0 is outside of physical memory, stopping fetch, 58984000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:302658] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:302658] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0xb09c0 is outside of physical memory, stopping fetch, 74639000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0xb09c0 is outside of physical memory, stopping fetch, 74790000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:375045] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:375045] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 89676500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:443888] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:443888] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 104830500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:509789] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:509789] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 119803500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:568509] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:568509] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 132122500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:632765] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:632765] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 147036500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:707439] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:707439] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 164047500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:771946] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:771946] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 178873500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:836517] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:836517] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 193720500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:901630] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:901630] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 208881500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:976071] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:976071] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 226312500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1039703] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1039703] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 240853000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 240985000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1103070] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1103070] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 256041000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 256173000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1170344] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1170344] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 271227000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 271359000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1179717] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1179717] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1243479] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1243479] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 289418000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 289550000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1301654] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1301654] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 300668000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 300800000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1365628] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1365628] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 315026000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 315158000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1428907] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1428907] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 329322000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 329454000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1492054] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1492054] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 343208000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 343340000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1556263] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1556263] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 358104000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 358236000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1620723] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1620723] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 373106000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 373238000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1684272] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1684272] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 388364000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 388496000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1778071] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1778071] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 404532500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 404664500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1854813] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1854813] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 419824500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 419956500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:1938807] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:1938807] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 435972500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 436104500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2012396] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2012396] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 450736500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 450868500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2078981] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2078981] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 462432500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 462564500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2153628] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2153628] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 475914500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 476048000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 476067500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2229587] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2229587] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 490514500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 490648000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 490667500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2242097] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2242097] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2315632] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2315632] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 509287500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 509419500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2387428] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2387428] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 522841500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 522973500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2457642] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2457642] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 536311500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 536443500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2529681] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2529681] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 550456500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 550588500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2602339] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2602339] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 564299500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 564431500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2672516] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2672516] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 577658500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 577790500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2758285] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2758285] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 592809500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 592941500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2829590] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2829590] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 605830500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 605962500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2894426] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2894426] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 617573500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 617705500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:2972718] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:2972718] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 631783500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 631915500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3042648] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3042648] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 645058500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 645190500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3119023] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3119023] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 659161500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 659293500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3192924] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3192924] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 673410500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 673542500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3266025] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3266025] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 688492500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 688624500
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3343540] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3343540] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 704152500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 704284500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3352804] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3352804] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3427246] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3427246] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 722411500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 722543500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3509212] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3509212] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 737777000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 737909000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3584518] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3584518] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 752373000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 752505000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3655847] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3655847] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 766403000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 766535000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3716483] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3716483] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 778079000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 778211000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3781334] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3781334] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 791316000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 791448000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3843190] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3843190] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 804644000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 804776000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3906191] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3906191] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 817442000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 817574000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:3979422] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:3979422] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 832390000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 832522000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4041740] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4041740] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 845649000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 845781000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4106443] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4106443] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 859594000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 859726000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4170395] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4170395] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 872742000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 872874000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4235449] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4235449] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 885241000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 885373000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4295406] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4295406] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 897531000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 897663000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4360304] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4360304] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 910128000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 910260000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4371445] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4371445] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4426758] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4426758] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 925126000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 925258000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4488993] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4488993] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 938590000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 938722000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4552560] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4552560] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 951334000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 951466000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4615900] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4615900] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 964075000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 964207000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4679884] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4679884] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 977021000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 977153000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4756801] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4756801] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 991635000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 991767000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4821000] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4821000] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1005088000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1005220000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4893059] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4893059] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1019175000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1019307000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:4956133] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:4956133] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1032769000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1032901000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5020442] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5020442] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1046766000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1046898000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5093232] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5093232] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1060895000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1061027000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5170739] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5170739] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1073404000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1073536000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5250143] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5250143] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1087360000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1087492000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5330704] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5330704] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1103288000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1103420000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5406473] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5406473] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1117894000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1118026000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5416905] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5416905] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5487276] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5487276] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1135870000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1136002000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5558289] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5558289] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1150553000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1150685000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5629451] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5629451] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1164658000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1164790000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5703005] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5703005] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1178666000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1178798000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5772354] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5772354] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1192292000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1192424000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5841910] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5841910] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1205829000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1205961000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5918958] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5918958] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1221474000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1221606000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:5980898] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:5980898] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1233425000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1233557000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6050807] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6050807] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1248293000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1248425000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6120332] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6120332] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1262361000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1262493000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6190351] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6190351] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1276866000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1276998000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6259171] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6259171] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1291472000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1291604000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6329084] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6329084] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1305798000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1305930000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6398779] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6398779] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1319695000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1319827000
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6472230] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6472230] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1334144000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1334276000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6480493] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6480493] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6550439] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6550439] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1351926000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1352058000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6619960] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6619960] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1365433000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1365565000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6690105] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6690105] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1379552000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1379684000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6753393] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6753393] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1390991000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1391123000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6849336] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6849336] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1407471000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1407603000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:6936755] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:6936755] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1423262000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1423394000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7006203] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7006203] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1436704000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1436836000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7073485] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7073485] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1450274000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1450406000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7141256] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7141256] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1463446000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1463578000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7205690] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7205690] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1476878000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1477010000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7271875] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7271875] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1490642000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1490774000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7335124] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7335124] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1504483000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1504615000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7399659] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7399659] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1517956000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1518088000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7464398] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7464398] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1531620000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1531752000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7524569] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7524569] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1542606000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1542738000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7538049] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7538049] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7602395] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7602395] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1560234000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1560366000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7667669] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7667669] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1573799000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1573931000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7732215] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7732215] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1587895000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1588027000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7796797] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7796797] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1602583000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1602715000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7870399] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7870399] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1618235000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1618367000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:7939119] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:7939119] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1633083000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1633215000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8006691] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8006691] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1647702000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1647834000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8073238] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8073238] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1662264000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1662396000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8139290] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8139290] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1676018000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1676150000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8205424] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8205424] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1690044000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1690176000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8267654] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8267654] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1701509000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1701641000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8336421] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8336421] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1715853000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1715985000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8402764] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8402764] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1729673000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1729805000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8477204] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8477204] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1743820500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1743952500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8552946] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8552946] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1758876500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 1759008500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8562522] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8562522] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8629798] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8629798] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1777662500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1777794500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8694526] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8694526] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1791523500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1791655500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8760616] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8760616] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1805495500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1805627500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8848328] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8848328] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1822943500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1823075500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8912790] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8912790] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1836258500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1836390500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:8977853] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:8977853] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1850765500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1850897500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:9036069] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:9036069] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1861934500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1862066500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:9099457] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:9099457] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1875622500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1875754500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:9162496] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:9162496] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1889440500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1889572500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:9515848] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:9515848] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1977563500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 1977695500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:9879393] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:9879393] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2078483000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2078615000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:9951596] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:9951596] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2094123500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2094255500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10018112] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10018112] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2109061500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2109193500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10081700] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10081700] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2123538500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2123670500
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10152579] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10152579] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2138708500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2138840500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10163751] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10163751] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10234647] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10234647] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2157577000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2157709000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10317424] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10317424] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2173914000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2174046000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10396636] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10396636] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2189137000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2189269000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10470817] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10470817] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2204863000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2204995000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10567187] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10567187] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2225587000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2225719000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10636172] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10636172] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2239228000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2239360000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10708285] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10708285] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2254012000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2254144000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10781385] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10781385] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2268461000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2268593000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10851019] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10851019] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2282437000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2282569000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10923143] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10923143] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2297632000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2297764000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:10992243] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:10992243] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2311385000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2311517000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11064309] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11064309] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2325574000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2325706000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11138799] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11138799] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2340605000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2340737000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11206186] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11206186] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2353060000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2353192000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11277721] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11277721] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2366824000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2366956000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11286477] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11286477] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11356075] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11356075] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2385131000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2385263000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11434311] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11434311] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2401382000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2401514000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11518163] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11518163] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2417431000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2417563000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11586423] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11586423] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2431592000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2431724000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11655170] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11655170] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2444704000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2444836000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11727108] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11727108] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2459831000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2459963000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11798226] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11798226] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2475326000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2475458000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11868706] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11868706] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2489862000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2489994000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:11953511] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:11953511] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2505558500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2505690500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12021149] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12021149] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2518809500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2518941500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12126851] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12126851] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2543312500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2543444500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12193997] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12193997] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2557619500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2557751500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12257723] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12257723] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2572854500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2572986500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12324184] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12324184] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2589022500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2589154500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12387154] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12387154] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2602917500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2603049500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12395718] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12395718] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12469628] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12469628] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2622002500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2622134500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12535560] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12535560] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2636989500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2637121500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12623405] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12623405] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2657151500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2657283500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12687107] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12687107] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2669977500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2670109500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12749477] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12749477] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2683373500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2683505500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12805396] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12805396] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2694612500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2694744500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12869926] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12869926] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2708732500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2708864500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12933939] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12933939] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2722872500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2723004500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:12994828] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:12994828] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2736360500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2736492500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13057211] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13057211] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2750306500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2750438500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13123140] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13123140] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2764878500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2765010500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13185772] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13185772] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2778517500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2778649500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13246628] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13246628] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2792585500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2792717500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13309134] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13309134] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2806604500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2806736500
+Will trigger stat dump and reset
+build/RISCV/sim/simulate.cc:194: info: Entering event queue @ 2811249500.  Starting simulation...
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13378223] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13378223] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2822750500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 2822882500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13394696] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13394696] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13460113] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13460113] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2843302500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2843434500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13525611] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13525611] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2854662500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2854794500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13595200] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13595200] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2869178000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2869310000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13671084] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13671084] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2885242000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2885374000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13739406] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13739406] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2900250000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2900382000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13804056] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13804056] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2913866000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2913998000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13870981] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13870981] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2928467000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2928599000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:13935778] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:13935778] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2942199000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2942331000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14028206] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14028206] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2964617000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2964749000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14091437] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14091437] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2979077000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2979209000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14158241] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14158241] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2994102000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 2994234000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14220606] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14220606] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3008377000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3008509000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14274900] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14274900] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3019835000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3019967000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14341551] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14341551] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3033983000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3034115000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14418124] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14418124] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 3050755000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 3050887000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14426996] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14426996] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14530669] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14530669] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3080252000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3080384000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:14892902] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:14892902] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3183769500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3183901500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:17313591] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:17313591] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3907474000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 3907627000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:18928937] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:18928937] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4384338000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4384491000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:19013584] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:19013584] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4403220000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4403352000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:19081512] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:19081512] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4418232000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4418364000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:19147029] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:19147029] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4432912000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4433044000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:19267285] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:19267285] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4456149500
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4456281500
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:19897588] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:19897588] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4633302000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4633455000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:20334662] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:20334662] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4758020000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 4758152000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:21666584] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:21666584] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5149610000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5149763000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:21732862] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:21732862] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5162795000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5162927000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:21801735] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:21801735] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5178126000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5178258000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:21903144] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:21903144] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5202083000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5202215000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:22314241] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:22314241] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 5323940000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 5324072000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:22323486] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:22323486] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:23493893] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:23493893] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5677997000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5678150000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:23573875] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:23573875] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5695415000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5695547000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:23651926] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:23651926] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5713931000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5714063000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:23713019] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:23713019] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5726626000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5726758000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:23777207] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:23777207] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5739547000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5739679000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:23840940] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:23840940] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5754640000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5754772000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24062841] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24062841] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5813282000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5813414000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24142428] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24142428] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5829930000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5830062000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24248051] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24248051] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5857795000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5857927000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24308929] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24308929] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5870200000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5870332000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24379360] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24379360] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5887889000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5888021000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24455047] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24455047] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5904818000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5904950000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24527310] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24527310] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5918947000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5919079000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24730889] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24730889] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5971685000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 5971817000
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24828275] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24828275] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 5991020000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x1e8dc0 is outside of physical memory, stopping fetch, 5991152000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24839034] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24839034] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:24964065] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:24964065] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6019866000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6019998000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:25043816] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:25043816] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6033873000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6034005000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:25109667] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:25109667] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6046073000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6046205000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:25200827] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:25200827] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6067454000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6067586000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:25259513] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:25259513] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6078885000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6079017000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:25349857] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:25349857] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6100318000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6100450000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:25767041] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:25767041] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6223277000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6223409000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:27059164] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:27059164] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6622903000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6623056000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:27125417] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:27125417] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6637121000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6637253000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:27190421] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:27190421] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6652119000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6652251000
+build/RISCV/cpu/base.cc:970: warn: Inst [sn:27278609] pc: 0x800a0004
+build/RISCV/cpu/base.cc:971: warn: Diff at sp Ref value: 0xfffffffff92c7ee0, GEM5 value: 0x800abec0
+build/RISCV/cpu/base.cc:1040: warn: Inst [sn:27278609] @ 0x800a0004 in GEM5 is csrrw sp, mscratch, sp
+build/RISCV/cpu/base.cc:1103: warn: Difftest matched again, NEMU seems to commit the failed mem instruction
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6672518000
+build/RISCV/cpu/o3/fetch.cc:638: warn: Address 0x17c5c0 is outside of physical memory, stopping fetch, 6672650000

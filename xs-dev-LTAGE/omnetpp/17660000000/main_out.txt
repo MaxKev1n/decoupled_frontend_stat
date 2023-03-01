@@ -1,0 +1,34 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:40:01
+gem5 executing on open26, pid 426809
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/omnetpp_17660000000_0.027564/0/_17660000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fa0d6a9e580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+largeNet.llanD[1].host[0].srv registering DSAP 241
+largeNet.llanD[1].host[1].srv registering DSAP 241
+largeNet.llanD[1].host[2].srv registering DSAP 241
+largeNet.llanD[1].host[3].srv registering DSAP 241
+largeNet.llanD[1].host[4].srv registering DSAP 241
+largeNet.llanD[1].host[5].srv registering DSAP 241
+largeNet.llanD[1].host[6].srv registering DSAP 241
+largeNet.llanD[1].host[7].srv registering DSAP 241
+largeNet.llanD[1].host[8].srv registering DSAP 241
+largeNet.llanD[1].host[9].srv registering DSAP 241
+largeNet.llanD[1].host[10].srv registering DSAP 241
+largeNet.llanD[1].host[11].srv registering DSAP 241
+Autoconfig: advertising that we only support half-duplex operation
+largeNet.llanD[1].hhost[0].srv registering DSAP 241
+largeNet.llanD[1].hhost[1].srv registering DSAP 241
+largeNet.llanD[1].hhost[2].srv registering DSAP 241
+Exiting @ tick 8883544000 because a thread reached the max instruction count

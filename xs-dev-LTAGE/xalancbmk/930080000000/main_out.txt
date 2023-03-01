@@ -1,0 +1,33 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:57:30
+gem5 executing on open26, pid 430735
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_930080000000_0.065170/0/_930080000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fdb0699a580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+withers own made transform detain answer <emph> find fantastic </emph> mine barbarism when bow justly events breath pieces <emph> fearest late understanding can nine <i> cannon befriend slave tiger implies when </i> mark otherwise thief very load tunes sceptres compos however behold </emph> spite text myself call pretty anointed tree begins canker quarrel parting seen forth instigation eats horace raising woollen seeking proved promises stops liv osr confirm effects true thereto and scene confession minority rebuke ink pruning rider only shines novelty pomfret execute expecting fly passion profound honours issue display composition sued witness hundred repent deserves wary break fears penetrable spend time warrant harvest <i> sound </i> 
+<p>Encrypted Version</p>
+  dnuos  tsevrah tnarraw emit dneps elbartenep sraef kaerb yraw sevresed tneper derdnuh ssentiw deus noitisopmoc yalpsid eussi sruonoh dnuoforp noissap ylf gnitcepxe etucexe terfmop ytlevon senihs ylno redir gninurp kni ekuber ytironim noissefnoc enecs dna otereht eurt stceffe mrifnoc rso vil spots sesimorp devorp gnikees nelloow gnisiar ecaroh stae noitagitsni htrof nees gnitrap lerrauq reknac snigeb eert detniona ytterp llac flesym txet etips  dloheb revewoh sopmoc sertpecs senut daol yrev feiht esiwrehto kram  nehw seilpmi regit evals dneirfeb nonnac  enin nac gnidnatsrednu etal tseraef  seceip htaerb stneve yltsuj wob nehw msirabrab enim  citsatnaf dnif  rewsna niated mrofsnart edam nwo srehtiw
+<br>
+</td><td>3</td>
+</tr>
+<tr valign="top">
+<td>person8510</td><td>person4928</td><td>item1778</td><td>39.3</td><td>05/09/1999</td><td>1</td><td>person1372</td><td>(I) 
+glorious matter perchance omitting straw crestfall strike misplaces condemnation art sword leonato mountains betrayed <emph> longing odd keep white flowers fires shrift faithful </emph> trick moving quarrel friend marg buried following gazed hallow poor john books howling <b> courtier </b> breed transform camp judgement strike lamps clean brought months smelt directly discovers killed mean mind <i> infallibly fordoes cured believe wise gloucester </i> actors quite seen ambitious lack 
+<p>Encrypted Version</p>
+ kcal suoitibma nees etiuq srotca  retsecuolg esiw eveileb deruc seodrof ylbillafni  dnim naem dellik srevocsid yltcerid tlems shtnom thguorb naelc spmal ekirts tnemegduj pmac mrofsnart deerb  reitruoc  gnilwoh skoob nhoj roop wollah dezag gniwollof deirub gram dneirf lerrauq gnivom kcirt  lufhtiaf tfirhs serif srewolf etihw peek ddo gnignol  deyarteb sniatnuom otanoel drows tra noitanmednoc secalpsim ekirts llaftserc warts gnittimo ecnahcrep rettam suoirolg
+<br>
+</td><td>7</td>
+</tr>
+<tr valign="top">
+Exiting @ tick 7197763500 because a thread reached the max instruction count

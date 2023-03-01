@@ -1,0 +1,32 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:39:10
+gem5 executing on open26, pid 426651
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_902020000000_0.041640/0/_902020000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fa4ca15f580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+ sellorap emoclew nollisuor ycilop ytuped sru nedrag traped ecnatsni gnisruc ruolav  feil  eson mahgnikcub foerehw gnolorp gninraerd ytfol nemow stiurf eldi sworros emitemos deirc dnif nrow tnelat sevals tnarg nihtiw retlaw sdnecsnart nway seiratov stnadnetta niagrab woble ekohc reitruoc reffo nwap yleliv htoos kcaj rimda emalb setag suoetnuob level srevir niarb snur nema sklat yletal dnefed dloc noitacovni yratubirt drol vorp dnuor retspat dniw ylpmis rereporp selaw ksa ylippah gnidloheb yhpargohtro lliw smrow sreyalp tnih sesroc ylati tnematset stceffe kcab esruc eil kcer rehtihw yrog modsiw tep tesolc dnaleri pils htod subrabone spaeh nonis tfelc tnemurtsni knab dellor erutraped naom rehtoms naicisyhp real esirpretne peels tnematset worg noil tcepser hsiuqnav sthgirffa lirpa nimretxe yub tneger evresed redisnoc niatnoc dehs yrros tlahs otni emoc htiw nrobnu htah syas elttab seritta emuserp elcnu rehtafdnarg ezis grunu semoc suielucorp etal yalp htrow sevaw sevired sesoprup russa  egamirglip nog esoporp leets yrtnuoc soped denrae seuqaj stiws suomonev sllih odranreb esaec yas  noliuqa tiforpnon  nwap  dnuorg sthguoht lufniap mrah degnah tniartser emalb noitacilper hgih tseug sdoow dnim  ytterp edir traehteews samoht dlohpu egrahcsid tnelis rehto smaerts sdnah tekcut rats ssecca  tsuj tnangerp mohw  secnahc hctef seusrup  natit hsiw ecnefed spurys ytinigriv thguohtem yrram gniprac gnoldaeh  lerryt hcuoc seidal enut tnailav  flesruoy gnidnatshtiwton dneps  dnuob emoc esle tnias sdon eno  devired niamud esiwekil sterrut ecarb suolaej sekam ytidommoc ecarg dedne ylwen enut vol naimrahc taes sualehcra srevid sarra ytinutroppo erem nemeltneg sdneirf erusaelpsid deirc gniraeh ecein naehtemorp yhsub esruoc nodnol sutcideneb nosaert ytimrifni tniop seitingid laever tiuq nwod pmac eurt suoicerp ega luof txet larutan gnitlem sessik
+<br>
+</td><td>6</td>
+</tr>
+<tr valign="top">
+<td>person5932</td><td>person4892</td><td>item1231</td><td>181.82</td><td>04/02/2000</td><td>1</td><td>person11695</td><td>(I) 
+jail little conclusion incur blessed age shrug pride years mirror tears youngest travail misenum henceforth <i> smelt </i> nestor light instruction chance naked camps meek pieces retire scruple doing raiment bosom buried winter wealth slay mistrust usurp frequents stabb methinks sprite lucio promis grace bruise bottom aside horatio brothel face watch weighing kites renew divinity forgot known contagion reply unseal discontents horns midnight hang issues villain mood roundly utter vanquisher understand tyb thee preventions gear sea 
+<p>Encrypted Version</p>
+ aes raeg snoitneverp eeht byt dnatsrednu rehsiuqnav rettu yldnuor doom nialliv seussi gnah thgindim snroh stnetnocsid laesnu ylper noigatnoc nwonk togrof ytinivid wener setik gnihgiew hctaw ecaf lehtorb oitaroh edisa mottob esiurb ecarg simorp oicul etirps sknihtem bbats stneuqerf prusu tsurtsim yals htlaew retniw deirub mosob tnemiar gniod elpurcs eriter seceip keem spmac dekan ecnahc noitcurtsni thgil rotsen  tlems  htrofecneh munesim liavart tsegnuoy sraet rorrim sraey edirp gurhs ega desselb rucni noisulcnoc elttil liaj
+<br>
+</td><td>10</td>
+</tr>
+<tr valign="top">
+<td>person6005</td><td>person7492</td><td>item3553</td><td>26.39</td><td>04/02/2000</td><td>1</td><td>person3292</td><td>(I) 
+Exiting @ tick 7550422000 because a thread reached the max instruction count

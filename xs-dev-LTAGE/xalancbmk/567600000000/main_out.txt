@@ -1,0 +1,23 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:31:17
+gem5 executing on open26, pid 424923
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_567600000000_0.068754/0/_567600000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7fb2d5779580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+<emph> sympathy joy brook wife impudent mightily must gonzago paulina </emph> quest knew aquitaine finger russian wrongs remember vow suits ostentare strawberries plumed usurp doomsday suspicion tailors shooting deny tenour thence successors cupid change awake more catch emilia frogmore preventions carry cool estates next glasses sleeps thieves summon came add somerset intents froth realms basket perdu brought sheep cordial plume spoke motive resides peter counterfeit hiding hovel fresh nonprofit state twelve fain prize carefully trouble storms sweetly endeavours condition sing observe admitted incite rhym <emph> ravish uneven </emph> along thereto thicket embers pass descend vanity knowing petticoats free cat troth benefit shilling asking servingman signior from sent norway imputation taking gait enchanting brotherhoods back demands meddle did manly compulsion haud arrived puff keep nature rook boast insinuate father clubs cuckold ubique varro caper knee preventions jarring magic bought thereon indian growing dotage break weeping wronger clown utmost apart fellowship confession execution wake slain visitation mocks need foils shrilly world amends assurance manes last cyprus grasp melt first shriving antigonus infants affliction granted tables tongue nights commends unhack image whose maid halting churl humanity walks abomination napkins mary worth terror burial roderigo dreaming back pain fairly devise color opposite heavens execution upper mandate adverse advise 
+<p>Encrypted Version</p>
+ esivda esrevda etadnam reppu noitucexe snevaeh etisoppo roloc esived ylriaf niap kcab gnimaerd ogiredor lairub rorret htrow yram snikpan noitanimoba sklaw ytinamuh lruhc gnitlah diam esohw egami kcahnu sdnemmoc sthgin eugnot selbat detnarg noitcilffa stnafni sunogitna gnivirhs tsrif tlem psarg surpyc tsal senam ecnarussa sdnema dlrow yllirhs sliof deen skcom noitatisiv nials ekaw noitucexe noissefnoc pihswollef trapa tsomtu nwolc regnorw gnipeew kaerb egatod gniworg naidni noereht thguob cigam gnirraj snoitneverp eenk repac orrav euqibu dlokcuc sbulc rehtaf etaunisni tsaob koor erutan peek ffup devirra duah noislupmoc ylnam did elddem sdnamed kcab sdoohrehtorb gnitnahcne tiag gnikat noitatupmi yawron tnes morf roingis namgnivres gniksa gnillihs tifeneb htort tac eerf staocittep gniwonk ytinav dnecsed ssap srebme tekciht otereht gnola  nevenu hsivar  myhr eticni dettimda evresbo gnis noitidnoc sruovaedne ylteews smrots elbuort ylluferac ezirp niaf evlewt etats tiforpnon hserf levoh gnidih tiefretnuoc retep sediser evitom ekops emulp laidroc peehs thguorb udrep teksab smlaer htorf stnetni tesremos dda emac nommus seveiht speels sessalg txen setatse looc yrrac snoitneverp eromgorf ailime hctac erom ekawa egnahc dipuc srosseccus ecneht ruonet yned gnitoohs sroliat noicipsus yadsmood prusu demulp seirrebwarts eratnetso stius wov rebmemer sgnorw naissur regnif eniatiuqa wenk tseuq  aniluap ogaznog tsum ylithgim tnedupmi efiw koorb yoj yhtapmys 
+<br>
+<br>(I) 
+Exiting @ tick 8597990000 because a thread reached the max instruction count

@@ -1,0 +1,102 @@
+Global frequency set at 1000000000000 ticks per second
+[1;34m[src/device/io/mmio.c,18,add_mmio_map] Add mmio map 'sdhci' at [0x0000000040002000, 0x000000004000207f][0m
+Using /nfs/home/chenzihang/NEMU/build/riscv64-nemu-interpreter-so for difftest111
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-22.1]
+gem5 compiled Feb 28 2023 13:09:28
+gem5 started Feb 28 2023 13:31:09
+gem5 executing on open26, pid 424895
+command line: /nfs/home/chenzihang/GEM5/build/RISCV/gem5.opt /nfs/home/chenzihang/GEM5/configs/example/fs.py --num-cpus=1 --caches --l2cache --enable-difftest --xiangshan-system --mem-type=DDR4_2400_16x4 --cacheline_size=64 --l1i_size=128kB --l1i_assoc=8 --l1d_size=128kB --l1d_assoc=8 --l2_size=1MB --l2_assoc=8 --mem-size=8GB --generic-rv-cpt=/nfs-nvme/home/share/checkpoints_profiles/spec06_rv64gcb_o2_20m/take_cpt/xalancbmk_747620000000_0.013598/0/_747620000000_.gz --cpu-type=DerivO3CPU --maxinsts=20000000 --warmup-insts-no-switch=10000000
+
+[<m5.params.AddrRange object at 0x7f71efd6b580>]
+Attach 1 decoders to thread with addr: <orphan System>.cpu.decoder
+Create threads for test sys cpu (RiscvO3CPU)
+No cpu_class provided
+**** REAL SIMULATION ****
+mon minority protest wilt figures union better increase least sorrows follow past speedy merely cell com points benefactors achilles wean preventions offenders delight prisoner <i> shouldst found <b> prodigal </b> easiness transportance awry counterfeits strains favour </i> bliss neglect ass terrible voltemand women play petty fear wretch had knavery twenty lackey field agamemnon spleen indirection fin eleven constant beest anon owner april too hereford persever realm gestures curtsy resort divided sir little confidence refuse vex weak check harm dominions pompey art deformed disgrace couch expense deliver away earn talk shoot cypress mons proud awake preventions uncle despair appellant extenuate enemies chid cement market bawd bawdry ransom lands gild the news leg <i> penn montano frown repentance oswald counsel wants </i> shuttle menas humor held caitiff end foresee play stand drums offending presence going necessaries mon article message crows anon looks shames impatience england control rapier scarce dishonoured they rat accepts affections 
+<p>Encrypted Version</p>
+ snoitceffa stpecca tar yeht deruonohsid ecracs reipar lortnoc dnalgne ecneitapmi semahs skool nona sworc egassem elcitra nom seirassecen gniog ecneserp gnidneffo smurd dnats yalp eeserof dne ffitiac dleh romuh sanem elttuhs  stnaw lesnuoc dlawso ecnatneper nworf onatnom nnep  gel swen eht dlig sdnal mosnar yrdwab dwab tekram tnemec dihc seimene etaunetxe tnalleppa riapsed elcnu snoitneverp ekawa duorp snom sserpyc toohs klat nrae yawa reviled esnepxe hcuoc ecargsid demrofed tra yepmop snoinimod mrah kcehc kaew xev esufer ecnedifnoc elttil ris dedivid troser ystruc serutseg mlaer revesrep drofereh oot lirpa renwo nona tseeb tnatsnoc nevele nif noitceridni neelps nonmemaga dleif yekcal ytnewt yrevank dah hcterw raef yttep yalp nemow dnametlov elbirret ssa tcelgen ssilb  ruovaf sniarts stiefretnuoc yrwa ecnatropsnart ssenisae  lagidorp  dnuof tsdluohs  renosirp thgiled sredneffo snoitneverp naew sellihca srotcafeneb stniop moc llec ylerem ydeeps tsap wollof sworros tsael esaercni retteb noinu serugif tliw tsetorp ytironim nom
+<br>
+<br>
+<br>
+<b>Opening bid: </b>1.78<br>
+<b>Current bid: </b>54.28<br>
+</p>
+<h3>Open Auction Activity: open_auction2182</h3>
+<table border="1">
+<tr>
+<th>Date</th><th>Time</th><th>Bidder</th><th>Increment</th>
+</tr>
+<tr>
+<td>03/03/1998</td><td>15:46:47</td><td>person7831</td><td>25.5</td>
+</tr>
+<tr>
+<td>06/25/1998</td><td>10:28:07</td><td>person5853</td><td>10.5</td>
+</tr>
+<tr>
+<td>11/08/1998</td><td>00:43:22</td><td>person2652</td><td>6</td>
+</tr>
+<tr>
+<td>02/18/2000</td><td>03:32:32</td><td>person3073</td><td>10.5</td>
+</tr>
+<tr>
+<td><b>Total Increase</b></td><td></td><td></td><td>52.5</td>
+</tr>
+</table>
+<p>
+<b>Item: </b>item4313<br>
+<b>Seller: </b>person6532<br>
+<b>Seller Rating: </b>6<br>
+<b>Description: </b>(I) 
+wary gorged nightly traitors silly carving nations mettle endow nam wouldst settled power bend darken wit proclamation fraud modest company wouldst tyrant palm dependants loathed nathaniel act hermione offer predominant follow mickle replenished messala express troy deer thyself flame help lent bread adramadio divide love sainted secondary sovereignty wrinkled image levying but ajax officers election reap spok does leather counterfeit cave sign veins pedlar preventions victory complexion funeral credulous mads hast guess distance advis merrily paradox verona benefits shapeless grange imputation looks park 
+<p>Encrypted Version</p>
+ krap skool noitatupmi egnarg sselepahs stifeneb anorev xodarap ylirrem sivda ecnatsid sseug tsah sdam suoluderc larenuf noixelpmoc yrotciv snoitneverp raldep sniev ngis evac tiefretnuoc rehtael seod kops paer noitcele sreciffo xaja tub gniyvel egami delknirw ytngierevos yradnoces detnias evol edivid oidamarda daerb tnel pleh emalf flesyht reed yort sserpxe alassem dehsinelper elkcim wollof tnanimoderp reffo enoimreh tca leinahtan dehtaol stnadneped mlap tnaryt tsdluow ynapmoc tsedom duarf noitamalcorp tiw nekrad dneb rewop delttes tsdluow man wodne elttem snoitan gnivrac yllis srotiart ylthgin degrog yraw
+<br>
+<br>
+<b>Opening bid: </b>206.1<br>
+<b>Current bid: </b>396.6<br>
+</p>
+<h3>Open Auction Activity: open_auction2183</h3>
+<table border="1">
+<tr>
+<th>Date</th><th>Time</th><th>Bidder</th><th>Increment</th>
+</tr>
+<tr>
+<td>04/17/1998</td><td>16:42:41</td><td>person12165</td><td>81</td>
+</tr>
+<tr>
+<td>04/19/1998</td><td>15:11:28</td><td>person176</td><td>6</td>
+</tr>
+<tr>
+<td>08/13/1998</td><td>22:31:58</td><td>person1007</td><td>21</td>
+</tr>
+<tr>
+<td>02/28/1999</td><td>22:15:44</td><td>person12613</td><td>7.5</td>
+</tr>
+<tr>
+<td>08/14/1999</td><td>03:09:08</td><td>person312</td><td>3</td>
+</tr>
+<tr>
+<td>11/21/1999</td><td>19:49:42</td><td>person10402</td><td>43.5</td>
+</tr>
+<tr>
+<td>03/14/2001</td><td>10:50:36</td><td>person3895</td><td>12</td>
+</tr>
+<tr>
+<td>07/14/2001</td><td>00:10:35</td><td>person5655</td><td>15</td>
+</tr>
+<tr>
+<td>08/01/2001</td><td>04:30:47</td><td>person3777</td><td>1.5</td>
+</tr>
+<tr>
+<td><b>Total Increase</b></td><td></td><td></td><td>190.5</td>
+</tr>
+</table>
+<p>
+<b>Item: </b>item4315<br>
+<b>Seller: </b>person7715<br>
+<b>Seller Rating: </b>4<br>
+<b>Description: </b>(I) 
+Exiting @ tick 10411769500 because a thread reached the max instruction count
