@@ -2,31 +2,26 @@ import numpy as np
 import os
 import fnmatch
 
-import openpyxl
-
 
 def get_stats():
     np.set_printoptions(formatter={'all': lambda x: str(x)}, threshold=100)
     t = np.dtype(
         [('file_name', np.str_, 100), ('instCount', np.int32), ('branchMisCount', np.int32), ('branches', np.int32)])
 
-    for i in range(0, 4):
+    for i in range(0, 3):
         files = []
         write_file = []
         file_dir = ''
 
         if i == 0:
-            write_file = 'decoupled_update_cpt_stats.txt'
-            file_dir = './decoupled_update'
-        #elif i == 1:
-        #    write_file = 'decoupled_last_cpt_stats.txt'
-        #    file_dir = './decoupled_last'
-        #elif i == 2:
-        #    write_file = 'decoupled_cpt_stats.txt'
-        #    file_dir = './decoupled_ori'
+            write_file = 'stream-cpt-stats.txt'
+            file_dir = './stream'
+        elif i == 1:
+            write_file = 'xs-dev-cpt-stats.txt'
+            file_dir = './xs-dev'
         else:
-            write_file = 'coupled_cpt_stats.txt'
-            file_dir = './coupled'
+            write_file = 'xs-dev-LTAGE-cpt-stats.txt'
+            file_dir = './xs-dev-LTAGE'
 
         for root, dirs, theFiles in os.walk(file_dir):
             for file in theFiles:
@@ -55,7 +50,7 @@ def get_stats():
             stats[count] = tempStat
             count += 1
 
-        w = open('checkpoint/' + write_file, 'w')
+        w = open('./newFolder/checkpointsBranch/' + write_file, 'w')
         w.write(str(len(stats)) + '\n')
         for i in range(len(stats)):
             mpki = 0
@@ -149,6 +144,8 @@ def get_stallReason(name):
 
         w.close()
 
-get_stallReason('xs-dev')
+#get_stallReason('xs-dev-LTAGE')
 
-get_stallReason('stream')
+#get_stallReason('stream')
+
+get_stats()

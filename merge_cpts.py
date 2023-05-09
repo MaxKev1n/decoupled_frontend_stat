@@ -89,7 +89,7 @@ def merge_cpts2(name):
 
         write_file = name + '-' + stage + '-workload.txt'
         read_file = './stallReason/' + name + '-' + stage + '-cpt.txt'
-        weight_file = './weight/gcb-06-o2-summary.txt'
+        weight_file = 'newFolder/gcb-06-o2-summary.txt'
 
         f1 = open(read_file)
         f2 = open(weight_file)

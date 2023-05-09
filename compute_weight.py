@@ -20,7 +20,7 @@ with open(simpoints_file) as jf:
             weights.append(weight)
             coes.append(coe)
 
-w = open('weight/gcb-06-o2-summary.txt', 'w')
+w = open('newFolder/gcb-06-o2-summary.txt', 'w')
 w.write(str(len(names)) + '\n')
 for i in range(0, len(names)):
     w.write(names[i] + ' ')
