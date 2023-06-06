@@ -70,6 +70,36 @@ def merge_cpt_branch():
                 writeFile.write(' ')
             writeFile.write('\n')
 
+def merge_cpt_ipc():
+    name = ''
+
+    for i in range(3):
+        if i == 0:
+            name = 'stream'
+        elif i == 1:
+            name = 'xs-dev'
+        else:
+            name = 'xs-dev-LTAGE'
+
+        file = open('checkpointsIPC/' + name + '-cpt-stats.txt')
+        stats = np.zeros((int(benchmarksFileSize), 1), dtype=np.float32)
+
+        for line in file:
+            cptName = line.strip().split()[0]
+            bmName = line.strip().split()[0].split('/')[0]
+
+            for i in range(int(cptFileSize)):
+                if cptName == cptsNames[i]:
+                    for j in range(int(benchmarksFileSize)):
+                        if bmName == benchmarksName[j]:
+                            stats[j][0] += float(line.strip().split()[1]) * float(cptsCoe[i])
+
+        statsList = stats.tolist()
+        writeFile = open('benchmarkIPC/' + name + '-stats.txt', 'w')
+        for i in range(int(benchmarksFileSize)):
+            writeFile.write(benchmarksName[i] + ' ')
+            writeFile.write('%f' % statsList[i][0])
+            writeFile.write('\n')
 
 cptsNames = []
 cptsCoe = []

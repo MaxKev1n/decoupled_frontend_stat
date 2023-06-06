@@ -1,7 +1,7 @@
 import get_stats
 import merge_cpts
 import merge_workloads
-import write_xls
+from newFolder import write_xls
 
 if __name__ == '__main__':
     get_stats.get_stats()

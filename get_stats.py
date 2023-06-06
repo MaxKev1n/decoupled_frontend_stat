@@ -148,4 +148,59 @@ def get_stallReason(name):
 
 #get_stallReason('stream')
 
-get_stats()
+def get_stats_IPC():
+    np.set_printoptions(formatter={'all': lambda x: str(x)}, threshold=100)
+    t = np.dtype(
+        [('file_name', np.str_, 100), ('instCount', np.int32), ('numCycles', np.int32)])
+
+    for i in range(0, 3):
+        files = []
+        write_file = []
+        file_dir = ''
+
+        if i == 0:
+            write_file = 'stream-cpt-stats.txt'
+            file_dir = './stream'
+        elif i == 1:
+            write_file = 'xs-dev-cpt-stats.txt'
+            file_dir = './xs-dev'
+        else:
+            write_file = 'xs-dev-LTAGE-cpt-stats.txt'
+            file_dir = './xs-dev-LTAGE'
+
+        for root, dirs, theFiles in os.walk(file_dir):
+            for file in theFiles:
+                if fnmatch.fnmatch(os.path.join(root, file), '*/stats.txt'):
+                    files.append(os.path.join(root, file))
+
+        stats = np.zeros((len(files), 1), dtype=t)
+        count = 0
+        for file in files:
+            f = open(file)
+            tempStat = np.array([(file, 0, 0)], dtype=t)
+
+            for line in f:
+                word = line.strip().split()
+                if word:
+                    if word[0] == 'system.cpu.fetch.insts':
+                        instsCommitted = (int(word[1]))
+                        tempStat[0][1] += instsCommitted
+                    elif word[0] == 'system.cpu.fetch.cycles':
+                        numCycles = (int(word[1]))
+                        tempStat[0][2] += numCycles
+
+            stats[count] = tempStat
+            count += 1
+
+        w = open('./newFolder/checkpointsIPC/' + write_file, 'w')
+        w.write(str(len(stats)) + '\n')
+        for i in range(len(stats)):
+            ipc = 0
+            if stats[i][0][2] != 0:
+                ipc = format(float(stats[i][0][1]) / float(stats[i][0][2]), '.3f')
+            path = stats[i][0][0].split('/')
+            w.write(path[2] + '/' + path[3] + ' ')
+            w.write(str(ipc) + '\n')
+        w.close()
+
+get_stats_IPC()
